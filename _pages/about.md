@@ -12,3 +12,9 @@ Chris has led as the Systems Administrator for CISL's SiParCS & NESSI programs. 
 Before joining NCAR, Chris worked at Information Systems Integrators, Inc. for over five years as a Systems Administrator for 35+ small to medium enterprises in the Denver Metro area. He specialized in system evaluations for each company based on individual budgets and requirements. His roles ranged from Director of IT level tasks to Helpdesk Management, BDR Specialist, VM Infrastructure management, Network Tech, Security advisor, technology consulting, and lead trainer for leveraging existing and future technologies. Chris also worked at Microsoft as a SharePoint Administrator and at IBM as a CTS Agent, where he provided end-user support for Morgan Stanley Wealth Management.
 
 Chris has a deep understanding of PC Deployment, Desktop Administration, Network Design Implementation, Server Product Installation, and Apple OSX Server Deployments. He has experience in monitoring server processing, quality control of StreetSide Imagery, implementation of workflows for StreetSide Imagery team operators, and alpha testing of internal software. Chris has received multiple awards for his superb support, creativity, and performance in IT and has a passion for Psychological Safety.
+---
+# Projects
+
+# Interests
+
+---
