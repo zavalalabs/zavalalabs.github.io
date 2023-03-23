@@ -1,10 +1,13 @@
 ---
 layout: post
-title: My Development Zones
+title: My Setups; Where to start
 
 ---
 
-# The why
-When it comes down to it, we always start in the same spot  when starting out. Why do you need to setup your tooling. Most if not all the time we end up. 
+# Whats a setup
 
-## developer vs Systems Administrator vs dev op
+## The why?
+
+## Your Use case
+
+## Why Youtube videos are a resouce and not the rule
