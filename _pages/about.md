@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # Get to know me
-Chris is an experienced Systems Administrator with over eight years of experience managing systems and supporting users across various industries. He currently works as a Systems Administrator II at NCAR, a member of Advisory boards within NCAR|UCAR for Network Engineering teams, providing well-rounded perspectives to helpdesk environments. Chris is also a member of the macOS Engineering Group, coordinating with other administrators to deliver the best end-user experience of macOS desktop computing environments.
+Chris is an experienced Systems Administrator with over twelve years of experience managing systems and supporting users across various industries. He currently works as a Systems Administrator II at NCAR, a member of Advisory boards within NCAR|UCAR for Network Engineering teams, providing well-rounded perspectives to helpdesk environments. Chris is also a member of the macOS Engineering Group, coordinating with other administrators to deliver the best end-user experience of macOS desktop computing environments.
 
 Chris has led as the Systems Administrator for CISL's SiParCS & NESSI programs. He coordinates with IT Admins, Business Admins, and Project leads to ensure interns can access computing systems and software needed for research. He has experience in systems administration for macOS and Windows OS. He has developed documentation and trained staff for JAMF Pro and Apple Automated Deployment methodologies.
 
