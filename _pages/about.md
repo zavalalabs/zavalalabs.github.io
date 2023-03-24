@@ -18,4 +18,4 @@ Chris has a deep understanding of PC Deployment, Desktop Administration, Network
 
 # Projects
 Most notibally I have contributed to data quality in a product sprint where along with my team members at Bing Maps "Over 100 New Streetside and 3D Cities Go Live on Bing Maps" (https://blogs.bing.com/maps/2019/03/07/over-100-new-streetside-and-3d-cities-go-live-on-bing-maps/)
-<img src="/images/NewStreetsidecitieslist2014.jpg" alt="List of cities in the project" style="width: 400px;"/>
+<img src="/images/NewStreetsidecitieslist2014.jpg" alt="List of cities in the project" style="width: 600px;"/>
