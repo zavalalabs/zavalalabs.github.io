@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Unifi Connect & HomeAssistant
+categories: [UniFi, Home Networking, iOT, Home Automation]
 
 ---
 

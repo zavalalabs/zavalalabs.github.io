@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Setups; Where to Start
-
+categories: [Home Office, IT Advice]
 ---
 
 # What's a setup?

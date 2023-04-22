@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Unifi Connect First Impressions
+categories: [UniFi, Home Networking, iOT, Home Automation]
 
 ---
 
