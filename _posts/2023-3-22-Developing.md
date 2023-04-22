@@ -26,3 +26,11 @@ Okay, so let start with one of the most important things you need to consider wh
 ## Your Use case
 
 ## Why Youtube videos are a resource and not the rule
+
+# My Setup
+
+## Office VS Home Setup
+
+### Office Setup
+
+Now for my office setup where I spend my in-office days, I use 2, monitors in contrast to my home setup to do my day-to-day work. At the time of writing this, I spend only a few days in the office as a hybrid worker. What my organization offers vs what your organization offers is going to be different. So for me to say "This is what you should do" is not going to work.
