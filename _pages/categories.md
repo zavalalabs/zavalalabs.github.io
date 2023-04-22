@@ -10,10 +10,9 @@ permalink: /categories/
   {% assign posts = category | last %}
   {% assign post_count = posts | size %}
   {% if post_count > 0 %}
-    <h2 id="{{ category_name | slugify }}">{{ category_name }} ({{ post_count }})</h2>
-    <ul>
+    ## {{ category_name }} ({{ post_count }})
       {% for post in posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        ### [{{ post.title }}]({{ post.url }})
       {% endfor %}
     </ul>
   {% endif %}
