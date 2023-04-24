@@ -7,7 +7,9 @@ categories: [UniFi, Home Networking, iOT, Home Automation]
 
 # Tl;dr
 
-New tech and emerging technologies tend to draw me in the most. Especially technologies that have the home approval factor. That home approval factor is one key reason I started looking into Unifi Connect. (more on that below) 
+New tech and emerging technologies tend to draw me in the most. Especially technologies that have the home approval factor. That home approval factor is one key reason I started looking into Unifi Connect. If it can beat other DIY solutions like DakBoard, I'm in for investing some cash. *Turns out its nothing like what my own imagination thought it would be.* There is a learning curve so be aware if you like the idea of Dakboard Smart mirrors, you might not like Unifi Connect right off. 
+
+# Digging into Unifi Connect
 
 Once I saw the Unifi Connect product video in my youtube feed I was hooked. I had to have it. I had to try it. I had to see if it would work for me. But the question you might have is, what is Unifi Connect? 
 
