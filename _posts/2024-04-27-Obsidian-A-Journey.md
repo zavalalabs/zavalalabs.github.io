@@ -44,7 +44,7 @@ By Default your settings in this Core Plugin, may give you a headache first thin
 
 In the default settings for **Daily Notes**, each file  /note will be created in the root (top level) of your "Vault". 
 Examples: (For the below table we are assuming today's date for the files April 27th 2024)
-| Example                                           | Input          | Folder Structure Result<br>(/Folder/Folder/File) | Resulting Note Title |
+| Example                                           | Input          | Folder Structure Result (/Folder/Folder/File) | Resulting Note Title |
 | ------------------------------------------------- | -------------- | ------------------------------------------------ | -------------------- |
 | Year, Month(Number), Day(Number)                  | YYYY/MM/DD     | /2024/ 04/27                                     | 27                   |
 | Year, Month(April),Day(Number)                    | YYYY/MMMM/DD   | /2024/April/27                                   | 27                   |
