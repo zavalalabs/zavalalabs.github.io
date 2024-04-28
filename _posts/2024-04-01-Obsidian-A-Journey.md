@@ -6,7 +6,8 @@ categories: [Obsidian, Note Taking, Productivity, Tools]
 # Background
 In 2019, I found myself facing an issue with the future of my note taking system. In my past note taking adventures, i had relied heavily on Microsoft OneNote and physical lab/engineering notebooks from Bookfactory. But in the modern day, the evolution of work from home and changes to my daily work created a gap. Not every organization utilizes the same software stack when it comes to office productivity software. Years ago you had to choose from various software like Microsoft office, LibreOffice, Notepad, or even Lotus Notes.
 
-> Q: Do you need a special application to take notes?
+> Q: Do you need a special application to take notes? 
+
 > A: No! Any text editing application can be a note taking tool. 
 
 
