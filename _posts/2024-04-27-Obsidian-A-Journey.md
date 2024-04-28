@@ -44,6 +44,7 @@ By Default your settings in this Core Plugin, may give you a headache first thin
 
 In the default settings for **Daily Notes**, each file/note will be created in the root (top level) of your "Vault". 
 
+![Daily Notes Settings pane](/images/2024-04-27-OBDNSettings.png)
 
 ```json
   "format": "YYYY/MM-MMMM/MM-DD-YYYY",
