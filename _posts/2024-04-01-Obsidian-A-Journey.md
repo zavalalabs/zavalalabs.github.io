@@ -35,7 +35,7 @@ My workflows:
 ### Solution
 
 #### Formatting and Structure
-Addressing my first issue "A Note for every day", EASY! Use the the built in ==Daily notes== *Core Plugin*. 
+Addressing my first issue "A Note for every day", EASY! Use the the built in ***Daily notes*** in *Core Plugin*. 
   
 ```json
   "format": "YYYY/MM-MMMM/MM-DD-YYYY",
