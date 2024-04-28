@@ -3,11 +3,7 @@ layout: post
 title: Obsidian A Journey
 categories: [Obsidian, Note Taking, Productivity, Tools]
 ---
-#### Table of contents
-- [Background](# Background)
-- [Thoughts behind moving](## Thoughts behind moving)
----
-<! -- headings -- >
+
 # Background
 In 2019, I found myself facing an issue with the future of my note-taking system. In my past note-taking adventures, I relied heavily on Microsoft OneNote and physical lab/engineering notebooks from Bookfactory. But in the modern day, the evolution of working from home and changes to my daily work created a gap. Not every organization utilizes the same software stack when it comes to office productivity software. Years ago you had to choose from various software like Microsoft Office, LibreOffice, Notepad, or even Lotus Notes.
 
