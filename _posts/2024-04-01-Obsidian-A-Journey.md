@@ -18,24 +18,28 @@ In 2019, I found myself facing an issue with the future of my note-taking system
 
   
 # The Future
+
+##  Struggles With Obsidian
+
+My struggles with the application may not be the same as yours. I ended up running into some, what seems basic, issues which have solutions burried too deep in manuals for add-ons or worese required doing some digging with google. (That can create its own issues, can anyone say reabbit holes?)
+So lets dive in on my first painpoint : 
+
 ## Daily Notes Setup
+Any note-taking system you use always has some kind of phlosopy about how to do things. I will not tell you this is the **ONLY* way to do something. This methoud just fits my needs for a Day to Day accouting of what I needed. 
 
-### Formatting and Structure
+My workflows: 
+1. A Note for every day
+2. Create a file structure Matching Year -> Month -> Day
+3. Automated!
 
+### Solution
+
+#### Formatting and Structure
+Addressing my first issue "A Note for every day", EASY! Use the the built in ==Daily notes== *Core Plugin*. 
   
-
 ```json
-
-{
-
   "format": "YYYY/MM-MMMM/MM-DD-YYYY",
-
   "template": "My Note Templates/Daily-Notes-Template",
-
   "autorun": false,
-
   "folder": "Daily Notes"
-
-}
-
 ```
