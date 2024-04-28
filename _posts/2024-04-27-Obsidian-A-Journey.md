@@ -24,7 +24,7 @@ In 2019, I found myself facing an issue with the future of my note-taking system
 My struggles with the application may not be the same as yours. I ended up running into some, what seems basic, issues that have solutions buried too deep in manuals for add-ons or worese required doing some digging with google. (That can create its own issues, can anyone say rabbit holes?)So let's dive in on my first pain point : 
 
 ## Daily Notes Setup
-Any note-taking system you use always has some kind of philosophy about how to do things. I will not tell you this is the **ONLY* way to do something. This method just fits my needs for a day-to-day accounting of what I needed. 
+Any note-taking system you use always has some kind of philosophy about how to do things. I will not tell you this is the **ONLY* way to do something. This method just fits my needs for a day-to-day accounting of what I need. 
 
 My workflows: 
 
@@ -35,8 +35,13 @@ My workflows:
 ### Solution
 
 #### Formatting and Structure
-Addressing my first issue "A Note for Every Day", EASY! Use the the built in ***Daily notes*** in *Core Plugin*. 
-  
+
+Addressing my first issue "A Note for Every Day", EASY! Use the built-in **Daily notes****** in *Core Plugin*. Not so fast, however!
+
+By Default your settings in this Core Plugin, may give you a headache first thing. Before you take your first note Launch settings, and set up your "Vault". 
+
+> Just remember your *Vault* is just a file system under the Obsidian interface, think of it as your working directory
+In the default settings for **Daily Notes**, each file/note will be created in the root (top level) of your "Vault". 
 ```json
   "format": "YYYY/MM-MMMM/MM-DD-YYYY",
   "template": "My Note Templates/Daily-Notes-Template",
