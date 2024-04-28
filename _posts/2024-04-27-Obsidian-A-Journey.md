@@ -46,9 +46,9 @@ In the default settings for **Daily Notes**, each file/note will be created in t
 Examples: (For the below table we are assuming today's date for the files April 27th 2024)
 | Example                                          | Input          | Folder Structure Result              | Resulting Note Title |
 | ------------------------------------------------ | -------------- | ------------------------------------ | -------------------- |
-| Year, Month(Number), Day(Number)                 | YYYY/MM/DD     | --> 2024 <br>---> 04<br>----> 27     | 27                   |
-| Year, Month(April),Day(Number)                   | YYYY/MMMM/DD   | --> 2024 <br>---> April <br>----> 27 | 27                   |
-| Year, Month(Number),Day(Day of Week Abbreviated), | YYYY/MM/DD-ddd | --> 2024<br>---> 04<br>---->27-Sat   | 27-Sat               |
+| Year, Month(Number), Day(Number)                 | YYYY/MM/DD     | --> 2024 <br/>---> 04<br/>----> 27     | 27                   |
+| Year, Month(April),Day(Number)                   | YYYY/MMMM/DD   | --> 2024 <br/>---> April <br/>----> 27 | 27                   |
+| Year, Month(Number),Day(Day of Week Abbreviated), | YYYY/MM/DD-ddd | --> 2024<br/>---> 04<br/>---->27-Sat   | 27-Sat               |
 |                                                  |                |                                      |                      |
 
 ![Daily Notes Settings pane](images/2024-04-27-ODNSettings.png)
