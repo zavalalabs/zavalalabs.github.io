@@ -41,7 +41,10 @@ Addressing my first issue "A Note for Every Day", EASY! Use the built-in **Daily
 By Default your settings in this Core Plugin, may give you a headache first thing. Before you take your first note Launch settings, and set up your "Vault". 
 
 > Just remember your *Vault* is just a file system under the Obsidian interface, think of it as your working directory
+
 In the default settings for **Daily Notes**, each file/note will be created in the root (top level) of your "Vault". 
+
+
 ```json
   "format": "YYYY/MM-MMMM/MM-DD-YYYY",
   "template": "My Note Templates/Daily-Notes-Template",
