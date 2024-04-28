@@ -51,7 +51,7 @@ Examples: (For the below table we are assuming today's date for the files April 
 | Year, Month(Number),Day(Day of Week Abbreviated), | YYYY/MM/DD-ddd | --> 2024 /n---> 04 /n---->27-Sat   | 27-Sat               |
 |                                                  |                |                                      |                      |
 
-![Daily Notes Settings pane](images/2024-04-27-ODNSettings.png)
+![Daily Notes Settings pane](/images/2024-04-27-ODNSettings.png)
 
 ```json
   "format": "YYYY/MM-MMMM/MM-DD-YYYY",
