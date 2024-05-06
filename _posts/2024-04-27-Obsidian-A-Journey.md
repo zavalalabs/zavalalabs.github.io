@@ -21,7 +21,7 @@ In 2019, I found myself facing an issue with the future of my note-taking system
 
 ##  Struggles With Obsidian
 
-My struggles with the application may not be the same as yours. I ended up running into some, what seems basic, issues that have solutions buried too deep in manuals for add-ons or worese required doing some digging with google. (That can create its own issues, can anyone say rabbit holes?)So let's dive in on my first pain point : 
+My struggles with the application may not be the same as yours. I ended up running into some, what seems basic, issues that have solutions buried too deep in manuals for add-ons or worse required doing some digging with Google. (That can create its own issues, can anyone say rabbit holes?)So let's dive in on my first pain point : 
 
 ## Daily Notes Setup
 Any note-taking system you use always has some kind of philosophy about how to do things. I will not tell you this is the *ONLY* way to do something. This method just fits my needs for a day-to-day accounting of what I need. 
@@ -36,7 +36,7 @@ My workflows:
 
 #### Formatting and Structure
 
-Addressing my first issue "A Note for Every Day", EASY! Use the built-in **Daily notes****** in *Core Plugin*. Not so fast, however!
+Addressing my first issue "A Note for Every Day", EASY! Use the built-in **Daily notes** in *Core Plugin*. Not so fast, however!
 
 By Default your settings in this Core Plugin, may give you a headache first thing. Before you take your first note Launch settings, and set up your "Vault". 
 
