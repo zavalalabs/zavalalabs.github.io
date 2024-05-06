@@ -19,8 +19,9 @@ Stream Deck is just a programable keyboard with a screen behind each button. Thi
 
 #### Variations of Stream Deck
 
-Stream Deck comes in a few flavors at the time of writing. The latest is the [Stream Deck Neo](https://www.elgato.com/us/en/p/stream-deck-neo), Which has been released as part of the new lower-cost Elgato product line that allows you to have 8 Customizable keys. This would be the smallest and easiest way to get started with the unit. This would be the one to start out with compared to the smaller Stream Deck mini. (If your wallet drives the choice and you end up with the Mini, I can't fault anyone for that. I started with it but ran into the 6 keys being too limiting.) Just be mindful that both the mini and the neo have cables being fixed to the unit, and if the cable goes wacky, you can't swap it out.
+Stream Deck comes in a few flavors at the time of writing. The latest is the [Stream Deck Neo](https://www.elgato.com/us/en/p/stream-deck-neo), Which has been released as part of the new lower-cost Elgato product line that allows you to have 8 Customizable keys. This would be the smallest and easiest way to get started with the unit. This would be the one to start with compared to the smaller Stream Deck mini. (If your wallet drives the choice and you end up with the Mini, I can't fault anyone for that. I started with it but ran into the 6 keys being too limiting.) Just be mindful that both the mini and the neo have cables being fixed to the unit, and if the cable goes wacky, you can't swap it out.
 
 The next step up would be the Stream Deck MK.2, which does have a removable cable and has 15 keys for you to leverage.
 
+###### Footnotes
 [^1]: Disclaimer: I am not paid for any product recommendations in my blog posts. If that were to ever change, it would be clearly called out and transparent.
