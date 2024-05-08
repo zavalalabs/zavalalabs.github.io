@@ -16,7 +16,7 @@ I had gotten a few VMS to run on it and even got a shocking uptime of 7 days! (I
 
 ### Pain Points
 
->[!TIP]
+> [!TIP]
 > - No GUI
 > - Clustering required a domain of some sort
 > - Certificates were always "Un trusted"
