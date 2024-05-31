@@ -4,7 +4,7 @@ title: Obsidian A Journey
 categories: [Obsidian, Note Taking, Productivity, Tools]
 ---
 
-> **Note:** This post is currently in progress.
+
 
 # Background
 In 2019, I found myself facing an issue with the future of my note-taking system. In my past note-taking adventures, I relied heavily on Microsoft OneNote and physical lab/engineering notebooks from Bookfactory. But in the modern day, the evolution of working from home and changes to my daily work created a gap. Not every organization utilizes the same software stack when it comes to office productivity software. Years ago you had to choose from various software like Microsoft Office, LibreOffice, Notepad, or even Lotus Notes.
@@ -38,13 +38,24 @@ My workflows:
 
 #### Formatting and Structure
 
-Addressing my first issue "A Note for Every Day", EASY! Use the built-in **Daily notes** in *Core Plugin*. Not so fast, however!
+Now if you are anything like me you may have been wondering "How can I create the folder structure I want? And won't that take a chunk of my time each year?"  The answer can be as complicated as you want. I ended up spending way more time than I'd care to admit trying to use bash scripts to try and create this file structure each year. It took a lot of keyboard-to-the-head moments to realize I was over-completing things. Using the built-in add-on **Daily Notes** I was able to create a simple structure that fits my needs. However, it was a bit of a pain to wrap my head around to get the results I wanted. 
 
-By Default your settings in this Core Plugin, may give you a headache first thing. Before you take your first note Launch settings, and set up your "Vault". 
+Lets dive into the settings for the **Daily Notes** add-on. 
 
-> Just remember your *Vault* is just a file system under the Obsidian interface, think of it as your working directory
 
-In the default settings for **Daily Notes**, each file  /note will be created in the root (top level) of your "Vault". 
+In the default settings for **Daily Notes**, each file /note will be created in the root (top level) of your "Vault". 
+> "Vault" in Obsidian terms is the folder structure or "notebook" that you setup to store your notes in. 
+> Example in windows: C:\Users\YourName\Documents\ObsidianVault
+> Example in MacOS: /Users/YourName/Documents/ObsidianVault
+
+Follow the onscreen prompt to "Create new vault" when you first start Obsidian. Save your vault in a location that is easy to find and backup.
+
+![Obsidian Create Vault](/images/2024-04-27-ONew.png)
+
+After creating your base vault, you can now create a folder in your vault for your daily notes. You can name this whatever you'd like it to be. Just remember the name as you will need to enter it in the settings for the **Daily Notes** add-on, "New File Location" field. Then from the following table examples, you can create your own folder structure and daily note title format. By using the input `YYYY/MM/DD` this will create the folder structure for the year, month, and day. The file name of the note will be the day of the month. "27.md" for example.
+
+Each day you create a note for, will automatically place the note in the correct folder structure. This will help you keep your notes organized and easy to find. When the year or month changes, the add-on will automatically place the note into the correct Year and Month folder. 
+
 Examples: (For the below table we are assuming today's date for the files April 27th 2024)
 
 | Example                                           | Input          | Folder Structure Result<br>(/Folder/Folder/File) | Resulting Note Title<br>(File.md) |
