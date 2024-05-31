@@ -3,6 +3,10 @@ layout: post
 title: Obsidian & Stream Deck
 categories: [Obsidian, Note Taking, Productivity, Tools, Stream Deck]
 ---
+
+
+
+
 # Stream Deck & Obsidian... Why?
 
 So, if you are like me, you are always trying to find a way to up your game with your note-taking or adding automation to your workday, then you may have looked at the Elgato Stream Deck[^1] and thought yourself, "Wow, those Reddit folks sure do a lot with it." The main issue I always find with Reddit and other forums is you are only shown, "Hey, this is what I made," but there are only a few that will actually tell you how they went about doing it. Most of the time, you see folks going around saying they made it but then telling you to just go get the device and try. That can be a barrier to entry that makes your gears grind. Sometimes these ideas cost money, and that's usually money you don't have to throw away.

@@ -4,6 +4,10 @@ title: Proxmox A Journey
 categories: [Proxmox, Virtualization, Productivity, Server, Hyper-V]
 ---
 
+
+
+
+
 > **Note:** This post is currently in progress.
 
 # Background

@@ -4,6 +4,9 @@ title: Goodbye Hyper-V (Free) It was nice knowing you
 categories: [Virtualization, Server, Hyper-V]
 ---
 
+
+
+
 # So long old friend
 
 This will be a short and sweet post, as Hyper-V free aka *Hype-V Server* was sun set in 2019 with support ending earlier this year, **Jan. 9th 2024**.  While the free standalone server was a great stripped down operationg system, it was a pain to get up and running and manage. So in some ways its a good thing that the free version is sunset. Managing hyper-v with out the GUI was a hard one to get going. 
