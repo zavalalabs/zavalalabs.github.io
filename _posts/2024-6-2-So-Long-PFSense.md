@@ -3,9 +3,6 @@ layout: post
 title: So Long PFSense
 categories: [Networking, Server, OPNSense, PFSense]
 ---
-
-
-
 # Background
 The time has come the walrus said... to say goodbye to PFSense.
 
