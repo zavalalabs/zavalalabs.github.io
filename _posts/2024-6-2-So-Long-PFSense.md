@@ -1,6 +1,6 @@
 ---
 layout: post
-title: So Long PFSense
+title: So Long PFSense 👋
 categories: [Networking, Server, OPNSense, PFSense]
 ---
 # Background

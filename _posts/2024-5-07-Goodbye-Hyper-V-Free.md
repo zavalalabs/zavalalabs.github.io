@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Goodbye Hyper-V (Free) It was nice knowing you
+title: Goodbye Hyper-V (Free) It was nice knowing you! 🖥️
 categories: [Virtualization, Server, Hyper-V]
 ---
 
