@@ -14,3 +14,9 @@ It's been a few days since installing OPNSense on a new mini computer that I hav
 
 
 ### 2. **VLANs**
+
+### 3. **Firewall Rules**
+
+### 4. **VPN**
+
+### 5. **DNS**
