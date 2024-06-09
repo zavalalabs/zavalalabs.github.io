@@ -5,23 +5,14 @@ categories: [Networking, Server, OPNSense, PFSense]
 ---
 It's been a few days since I installed OPNSense on a new mini computer that I used as a host for proxmox in my home lab. After having experience with the hardware in deploying my proxmox cluster, I decided to use the same hardware for my firewall. It would have been nice to use PFSense on this new hardware; however, as I mentioned in my previous post, PFSense does not like the non-intel hardware and the particular 2.5Gbe NIC that comes with the unit. [See my previous post for more details on that.](https://blog.chriszavala.com/So-Long-PFSense/)
 
-  
 
 > YIKES, what a mess
 
-  
-
 # Issues
-
-  
 
 ### 1. **Configuration Migration**
 
-  
-
 This pain point should have been my first warning sign not to proceed with the migration. Attempting to transfer the configuration file to the new system seemed like it should have worked, given that they started from the same project. Unfortunately, the projects have differed so much since their original release that the configuration files no longer match as closely as they might have at one point.  
-
-  
 
 When trying to import the configuration file, the system would get hung up on the VLANs and the WAN and LAN port assignments. The issue mostly showed up on reboots. When I got the configuration imported, the VLANS would get assigned on the WAN interface, and the WAN interface would get re-assigned to the wrong physical NIC. Not only did that occur, but it also seemed to fail at importing the users' accounts, thus rendering the unit inaccessible from any interface other than the console.
 
