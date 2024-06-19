@@ -4,7 +4,7 @@ title: Disclaimer
 permalink: /Disclaimer/
 ---
 
-# Disclaimer
+
 # Personal Opinions
 The thoughts and opinions expressed on this blog are entirely my own. They do not reflect the views or opinions of any organizations or employers I may be associated with, past or present. Any references to specific products, services, or companies are based on my personal experiences and opinions.
 # Affiliations
