@@ -32,7 +32,7 @@ Later, the fix for this issue was redoing the whole build by hand instead of usi
 
 ### 3. **Firewall Rules**
 
-  Some of the default rules that are created by the OS itself can be a bit odd. I ran into a few issues where the main default rules that get created during the initial configuration were blocking such simple things such as DNS even tho a rule was created after the fact to allow for DNS to work on that network. 
+ Some of the default rules created by the OS itself are odd. I ran into a few issues where the main default rules created during the initial configuration were blocking such simple things as DNS, even though a rule was made after the fact to allow for DNS to work on that network. This would be the ideal case for most people needing to create a secured network for home labs or testing. However, the biggest issue is that when the user makes a rule that would overrule the default rule, it would not work. This was a pain point as I had to go back and forth between the rules to figure out what was blocking the traffic. It was thankfully easy to find once you open the logging for the interface you are trying to troubleshoot, but it takes some weird times to actually get this to work. At one point, for the rule to work correctly, I had to remove the network entirely and recreate it to make the rulesets I wanted to have in place for them to work. This was very frustrating as this could have been an artifact 
 
 ### 4. **VPN**
 
