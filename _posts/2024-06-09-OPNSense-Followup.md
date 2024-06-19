@@ -32,7 +32,7 @@ Later, the fix for this issue was redoing the whole build by hand instead of usi
 
 ### 3. **Firewall Rules**
 
-  
+  Some of the default rules that are created by the OS its self can be a bit odd. I ran into a few issues where the main default rules that get created during the initial configuration were blocking such simple things such as DNS even tho a rule was created after the fact to allow for dns to work on that network. 
 
 ### 4. **VPN**
 
