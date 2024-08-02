@@ -5,7 +5,7 @@ categories: [Obsidian, Note Taking, Productivity, Tools, Stream Deck]
 ---
 
 
-
+> This page is in progress, I published it before I could get my thoughts together. 
 
 # Stream Deck & Obsidian... Why?
 
