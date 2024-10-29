@@ -1,6 +1,6 @@
 ---
 title: Obsidian A Journey
-date: 2024-04-007 01:00:00 +/-TTTT
+date: 2024-04-07 01:00:00 +/-TTTT
 categories: [Note_Taking, Obsidian]
 tags: [obsidian, note taking, productivity, tools]     # TAG names should always b lowercase
 ---
