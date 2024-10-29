@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Goodbye Hyper-V (Free) It was nice knowing you! 🖥️
-categories: [Virtualization, Server, Hyper-V]
+date: 2024-05-07 01:00:00 +/-TTTT
+categories: [Home Lab, Servers]
+tags: [virtualization, server, hyper-v]     # TAG names should always b lowercase
+
 ---
 
 
