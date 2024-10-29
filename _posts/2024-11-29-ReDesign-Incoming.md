@@ -1,7 +1,7 @@
 ---
 title: ReDesign
 date: 2024-11-29  01:00:00 +/-TTTT
-categories: [ Status]
+categories: [Status]
 tags: [update, status]     # TAG names should always b lowercase
 ---
 
