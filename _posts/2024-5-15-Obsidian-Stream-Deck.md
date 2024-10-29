@@ -1,7 +1,8 @@
 ---
-layout: post
 title: Obsidian & Stream Deck ⌨️
-categories: [Obsidian, Note Taking, Productivity, Tools, Stream Deck]
+date: 2024-05-07 01:00:00 +/-TTTT
+categories: [Note Taking, Obsidian]
+tags: [Obsidian, Note Taking, productivity, Tools, Stream Deck]     # TAG names should always b lowercase
 ---
 
 
