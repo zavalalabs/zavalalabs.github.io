@@ -8,7 +8,7 @@ tags:
 ---
 # TL;DR
 
-> Listed in order of date/time of purchase; oldest to newest 
+> Listed in order of date/time of purchase; Newest to Oldest
 
 
 # 2024
