@@ -35,8 +35,29 @@ tags:
 | Note5                 | The power distribution shown is for illustrative purposes only. OTA upgrades or different firmware versions may result in optimizations and variations in power distribution.                                                |
 | Note6                 | Due to proprietary charging protocols, the Surface Laptop Studio 2, Dell XPS 15 (9500/9510), Dell Alienware X14, and Dell Mobile Precision 5570 cannot be charged at full speed.                                             |
 
+### Anker Charging Base
+#### Product Info
+#### Review
+### Anker Prime Power Bank
+#### Product Info
+#### Review
 
 #### Review
 
+### Anker 313 Wireless Charging Stand
+#### Product Info
+#### Review
+
 # 2023
-### Anker Prime Charging Station
+###  Anker GaNPrime Power Bank, 2-in-1 Hybrid Charger
+#### Product Info
+#### Review
+
+# 2022
+###  Anker Charger, 65W 4 Port Charging Station
+#### Product Info
+#### Review
+
+###  Anker Charger, 65W 4 Port Charging Station
+#### Product Info
+#### Review
