@@ -36,6 +36,8 @@ The concept is great and more places should adopt it, in practice, it is a pain 
 
 ### ChargePoint
 
+Easy to charge, costs are crazy different. 
+
 ### Electrify America 
 
 ## Charging At Home
