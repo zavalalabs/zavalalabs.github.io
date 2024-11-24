@@ -28,6 +28,12 @@ Charging you think will be easy, and for the most part they should be. If you ow
 ## Public Charging Infrastructure
 ### EVGo
 
+####  EVgo Autocharge+
+
+The good and the bad: 
+
+The concept is great and more places should adopt it, in practice, it is a pain to setup. 
+
 ### ChargePoint
 
 ### Electrify America 
