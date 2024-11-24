@@ -25,11 +25,33 @@ Charging you think will be easy, and for the most part they should be. If you ow
 
 ## The Haves and the Have Nots
 
-## Accesability 
+## Accessibility 
 
-### ADA Acessability
-Handicap spaces with eleectric chargers
+### ADA Accessibility
+Handicap spaces with electric chargers are rare if that. [https://www.access-board.gov/tad/ev/](Access Board GOV site)
 
+### Learn your Charging Location
+##### Sample of this location
+
+[Example of Vehicle Charging Inlet Locations](https://www.access-board.gov/tad/ev/#examples-of-vehicle-charging-inlet-locations)
+
+| **Make**   | **Model**       | **Charging Inlet Location**             |
+| ---------- | --------------- | --------------------------------------- |
+| Tesla      | S, 3, X, Y      | Driver side rear                        |
+| Chevrolet  | Bolt EV         | Driver side front                       |
+| Ford       | Mustang Mach-E  | Driver side front                       |
+| Ford       | E-transit       | Front                                   |
+| Nissan     | Leaf            | Front                                   |
+| Audi       | E-Tron          | Driver side front                       |
+| Volkswagen | ID .4           | Passenger side rear                     |
+| Porsche    | Taycan          | Passenger side front, driver side front |
+| Hyundai    | Kona            | Front                                   |
+| Hyundai    | Ionic           | Driver side front                       |
+| Toyota     | Prius plug-in   | Passenger side rear                     |
+| Honda      | Clarity plug-in | Driver side front                       |
+| Ford       | Fusion energi   | Driver side front                       |
+| Toyota     | RAV4 prime      | Passenger side rear                     |
+| Chrysler   | Pacifica hybrid | Driver side front                       |
 ## Public Charging Infrastructure
 ### EVGo
 
