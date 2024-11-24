@@ -23,6 +23,17 @@ Charging you think will be easy, and for the most part they should be. If you ow
 
 # Things you *learn* 
 
+## The Haves and the Have Nots
+
+## Public Charging Infrastructure
+### EVGo
+
+### ChargePoint
+
+### Electrify America 
+
+## Charging At Home
+
 
 # Conclusion?
 
