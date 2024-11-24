@@ -59,6 +59,10 @@ Handicap spaces with electric chargers are rare if that.
 
 ####  EVgo Autocharge+
 
+> Autocharge+ is available only for EVs with CCS connectors that support the two-way vehicle data sharing functionality. **Most EVs with CCS connectors support this feature (including older EV models).**
+
+
+
 ##### The good and the bad: 
 
 The concept is great and more places should adopt it, in practice, it is a pain to setup.  In my local area where we have decent LTE/5G connection on mobile devices, attempting to setup the AutoCharge+, all i got was errors left and right, took about 15-20 minutes and 2 different charging location. 
@@ -66,9 +70,12 @@ The concept is great and more places should adopt it, in practice, it is a pain 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/C2CHXWWGj3A?si=rnPQrWSC9c9PEH6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+
 ### ChargePoint
 
-Easy to charge, costs are crazy different. 
+Easy to charge, costs are crazy different.
+
+
 
 ### Electrify America 
 
