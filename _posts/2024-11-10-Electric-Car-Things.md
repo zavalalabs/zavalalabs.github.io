@@ -28,12 +28,12 @@ Charging you think will be easy, and for the most part they should be. If you ow
 ## Accessibility 
 
 ### ADA Accessibility
-Handicap spaces with electric chargers are rare if that. [https://www.access-board.gov/tad/ev/](Access Board GOV site)
+Handicap spaces with electric chargers are rare if that.
 
 ### Learn your Charging Location
 ##### Sample of this location
 
-[Example of Vehicle Charging Inlet Locations](https://www.access-board.gov/tad/ev/#examples-of-vehicle-charging-inlet-locations)
+
 
 | **Make**   | **Model**       | **Charging Inlet Location**             |
 | ---------- | --------------- | --------------------------------------- |
