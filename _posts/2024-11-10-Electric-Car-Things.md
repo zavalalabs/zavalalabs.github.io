@@ -34,6 +34,9 @@ The good and the bad:
 
 The concept is great and more places should adopt it, in practice, it is a pain to setup. 
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/C2CHXWWGj3A?si=rnPQrWSC9c9PEH6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ### ChargePoint
 
 Easy to charge, costs are crazy different. 
