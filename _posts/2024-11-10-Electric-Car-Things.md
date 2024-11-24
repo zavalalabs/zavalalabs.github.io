@@ -36,7 +36,7 @@ Handicap spaces with electric chargers are rare if that.
 
 
 | **Make**   | **Model**       | **Charging Inlet Location**             |
-| ---------- | --------------- | --------------------------------------- |
+| --- | --- | --- |
 | Tesla      | S, 3, X, Y      | Driver side rear                        |
 | Chevrolet  | Bolt EV         | Driver side front                       |
 | Ford       | Mustang Mach-E  | Driver side front                       |
@@ -52,6 +52,8 @@ Handicap spaces with electric chargers are rare if that.
 | Ford       | Fusion energi   | Driver side front                       |
 | Toyota     | RAV4 prime      | Passenger side rear                     |
 | Chrysler   | Pacifica hybrid | Driver side front                       |
+
+
 ## Public Charging Infrastructure
 ### EVGo
 
