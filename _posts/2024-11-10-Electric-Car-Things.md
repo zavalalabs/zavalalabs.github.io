@@ -35,7 +35,7 @@ Handicap spaces with electric chargers are rare if that.
 
 
 
-| **Make**   | **Model**       | **Charging Inlet Location**             |
+| Make|Model|Charging Inlet Location|
 | --- | --- | --- |
 | Tesla      | S, 3, X, Y      | Driver side rear                        |
 | Chevrolet  | Bolt EV         | Driver side front                       |
