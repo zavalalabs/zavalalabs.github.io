@@ -25,12 +25,16 @@ Charging you think will be easy, and for the most part they should be. If you ow
 
 ## The Haves and the Have Nots
 
+
+## Public Charging Infrastructure
+
 ## Accessibility 
 
 ### ADA Accessibility
 Handicap spaces with electric chargers are rare if that.
 
 ### Learn your Charging Location
+
 ##### Sample of this location
 
 
@@ -54,7 +58,6 @@ Handicap spaces with electric chargers are rare if that.
 | Chrysler   | Pacifica hybrid | Driver side front                       |
 
 
-## Public Charging Infrastructure
 ### EVGo
 
 ####  EVgo Autocharge+
@@ -81,6 +84,11 @@ Easy to charge, costs are crazy different.
 
 ## Charging At Home
 
+### Home Chargers
+#### From Ask This Old House
+
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_YcnMRSqdtE?si=ox6Q4vmVvvNO9Gfd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 # Conclusion?
 
