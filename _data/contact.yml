@@ -21,7 +21,7 @@
 #   url:  ''                  # Fill with your Linkedin homepage
 #
 - type: buymeacoffee
-  icon: "fa-solid fa-mug-saucer"
+  icon: "fab fa-solid fa-mug-saucer"
   url: "https://buymeacoffee.com/cztech" # Fill with your stackoverflow homepage
 #<i class="fa-solid fa-mug-saucer"></i>
 #
