@@ -25,6 +25,13 @@ Charging you think will be easy, and for the most part they should be. If you ow
 
 ## The Haves and the Have Nots
 
+Charging infrastrucrre as a whole is all dependent on where you are and if your area wants to adopt them. There have been many storeis about "Chargers Damaged"
+
+So what do you do if you invenst in a electric car and dont have the invrastruute, well you might be plan eout of luck
+
+Also dependson which car you buy as some manufactures dont have the same chargers, take the neason leaf with its charger, it uses CHAdeMO Charger that is not always available on each chargin sstations
+
+Charging types and differences
 
 ## Public Charging Infrastructure
 

@@ -20,9 +20,10 @@
 #   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Linkedin homepage
 #
-# - type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+- type: buymeacoffee
+  icon: "fa-solid fa-mug-saucer"
+  url: "https://buymeacoffee.com/cztech" # Fill with your stackoverflow homepage
+#<i class="fa-solid fa-mug-saucer"></i>
 #
 - type: bluesky
   icon: "fa-brands fa-bluesky"
