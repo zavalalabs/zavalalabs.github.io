@@ -25,15 +25,15 @@ Charging infrastructure as a whole is all dependent on where you are and if your
 
 So, what do you do if you invest in an electric car and don't have the infrastructure? Well, you might be out of luck
 
-It also depends on which car you buy, as some manufacturers don't have the same chargers. Take the Neason leaf with its charger, it uses CHAdeMO Charger, which is not always available at each charging station
+It also depends on which car you buy, as some manufacturers don't have the same chargers. Take the Nissan leaf with its charger, it uses CHAdeMO Charger, which is not always available at each charging station
 
 Charging types and differences
 
 ## Public Charging Infrastructure
 
-## Accessibility
+###  General Accessibility
 
-### ADA Accessibility
+#### ADA Accessibility
 
 Handicap spaces with electric chargers are rare if that.
 
