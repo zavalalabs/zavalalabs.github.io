@@ -11,39 +11,35 @@ tags: [cars, in progress]     # TAG names should always b lowercase
 
 # Things You *think* you know
 
-Just jump in and drive! While yes that's true, just be gentle on that accelerator! Even the lower end models of electric cars have some good get up and go. 
+Just jump in and drive! While that's true, just be gentle on that accelerator! Even the lower-end electric car models have some good get-up-and-go.
 
-Jokes aside, the car should always operate as a car, things are different yes, but the main things are just the sound and the expectations of performance. 
+Jokes aside, the car should always operate as a car, things are different yes, but the main things are just the sound and the expectations of performance.
 
-Charging you think will be easy, and for the most part they should be. If you own a home you will be on the fast track to a good charging experience. For those in an apartment however you might have a rough go at first but thinking ahead as an apartment document might be needed. 
+Charging you think will be easy, and for the most part, it should be. If you own a home, you will be on the fast track to a suitable charging experience. For those in an apartment, however, you might have a rough go at first, but thinking ahead as an apartment document might be needed.
 
-
-
-
-
-# Things you *learn* 
+# Things you *learn*
 
 ## The Haves and the Have Nots
 
-Charging infrastrucrre as a whole is all dependent on where you are and if your area wants to adopt them. There have been many storeis about "Chargers Damaged"
+Charging infrastructure as a whole is all dependent on where you are and if your area wants to adopt them. There have been many stories about "Chargers Damaged"
 
-So what do you do if you invenst in a electric car and dont have the invrastruute, well you might be plan eout of luck
+So, what do you do if you invest in an electric car and don't have the infrastructure? Well, you might be out of luck
 
-Also dependson which car you buy as some manufactures dont have the same chargers, take the neason leaf with its charger, it uses CHAdeMO Charger that is not always available on each chargin sstations
+It also depends on which car you buy, as some manufacturers don't have the same chargers. Take the Neason leaf with its charger, it uses CHAdeMO Charger, which is not always available at each charging station
 
 Charging types and differences
 
 ## Public Charging Infrastructure
 
-## Accessibility 
+## Accessibility
 
 ### ADA Accessibility
+
 Handicap spaces with electric chargers are rare if that.
 
 ### Learn your Charging Location
 
 ##### Sample of this location
-
 
 
 | Make|Model|Charging Inlet Location|
