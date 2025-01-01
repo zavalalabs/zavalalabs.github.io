@@ -21,11 +21,13 @@ Charging you think will be easy, and for the most part, it should be. If you own
 
 ## The Haves and the Have Nots
 
-Charging infrastructure as a whole is all dependent on where you are and if your area wants to adopt them. There have been many stories about "Chargers Damaged"
+Charging infrastructure as a whole is all dependent on where you are and if your area wants to adopt them. There have been many stories about  *damaged chargers* have a tendency to come up as people go out hunting to collect money from the coper in the cables. 
 
-So, what do you do if you invest in an electric car and don't have the infrastructure? Well, you might be out of luck
+So, what do you do if you invest in an electric car and don't have the infrastructure? Well, you might be out of luck. Many folks who don't have access to a public infrastructure  to charge are forced to invest in charging at home, which can be its own messy time. If your home does not have adequate space in its electric panel to support adding a dedicated charger, things remain difficult. See the section below about charging at home for more.
 
-It also depends on which car you buy, as some manufacturers don't have the same chargers. Take the Nissan leaf with its charger, it uses CHAdeMO Charger, which is not always available at each charging station
+It also depends on which car you buy, as some manufacturers don't have the same chargers. Take the Nissan leaf with its charger, it uses CHAdeMO Charger, which is not always available at each charging station. 
+
+Those who have a Tesla will have better luck with the tesla super charger network as that particular vendor has a head start in getting stations adopted in multiple areas. The caveat there is that up until recently only Tesla vehicles could charge at those stations. 
 
 Charging types and differences
 
