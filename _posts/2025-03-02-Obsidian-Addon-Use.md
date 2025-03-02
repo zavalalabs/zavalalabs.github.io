@@ -24,6 +24,17 @@ During my now four years of using the application on and off, the last 3 of thos
 
 ### Countdown Timer
 
+Simple but effective! The question that you might be asking, "Is this for pomodoro type countdowns " and the answer is no. (I think I might make a post about Pomodoro at one point.)
+
+This add-on is actually a way to embed a simple contdown to a date and time with a title in your notes. This has come in handy for tracking down Project Start, Project Finish, Fiscal year or anything that you might be neeeding to kep track of that is time sensative that your calendar might not be able to do. 
+
+Example in Obsidian: 
+
+```countdown
+Next Fiscal Year (Current Fiscal Year: 2025)
+10-01-2025 09:00
+```
+
 ### Annotator
 
 ### Calendar
