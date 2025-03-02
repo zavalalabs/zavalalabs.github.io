@@ -35,6 +35,8 @@ Next Fiscal Year (Current Fiscal Year: 2025)
 10-01-2025 09:00
 ```
 
+Link to git hub: [Countdown Timer](https://github.com/KaizelZero/obsidian-countdown)
+
 ### Annotator
 
 ### Calendar
