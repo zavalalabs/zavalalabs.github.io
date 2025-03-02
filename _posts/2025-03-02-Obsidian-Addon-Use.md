@@ -22,6 +22,26 @@ During my now four years of using the application on and off, the last 3 of thos
 
 ## Add-ons that work
 
+### Countdown Timer
+
+### Annotator
+
+### Calendar
+
+### Code Styler
+
+### Mermaid Tools
+
+### Pandoc Plugin
+
+### Table of contents
+
+### Tag Summary
+
+### Thino
+
+### TogglTrack
+
 
 ## Add-ons that give headaches 
 
