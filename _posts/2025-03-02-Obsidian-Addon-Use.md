@@ -30,7 +30,8 @@ This add-on is actually a way to embed a simple contdown to a date and time with
 
 Example in Obsidian: 
 
-```countdown
+```txt
+countdown
 Next Fiscal Year (Current Fiscal Year: 2025)
 10-01-2025 09:00
 ```
