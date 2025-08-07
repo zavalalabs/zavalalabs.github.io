@@ -13,6 +13,8 @@ tags:
 In almost any buisness or in any job position, there is usually a call, typically from inside the organization, that almost any employee or technologist will face. That call or question usually is; "How much time have you spent working on XYZ project/ticket/task/etc." It's never a fun conversation to have and usually a pain to have to reacall what you did the day before or even the last quarter. If you track these items and tasks then things would be easy. But for many that brings up the question of "how can I track this?" 
 
 For me the answer years ago was this little company called Timeular now [Early.App](https://early.app/).
+
+
 > Why Timeular? Why use it? WHy not just use a spreadsheet or a note taking app?
 >
 
