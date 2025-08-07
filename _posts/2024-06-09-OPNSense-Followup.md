@@ -1,7 +1,16 @@
 ---
 layout: post
 title: OPNSense Follow up 😠
-categories: [Networking, Server, OPNSense, PFSense]
+categories: 
+    - Networking
+    - Server
+    - OPNSense
+    - PFSense
+tags:
+    - netowrking
+    - pfsense
+    - opnsense
+    - minipc
 ---
 
 It's been a few days since I installed OPNSense on a new mini computer that I used as a host for proxmox in my home lab. After having experience with the hardware in deploying my proxmox cluster, I decided to use the same hardware for my firewall. It would have been nice to use PFSense on this new hardware; however, as I mentioned in my previous post, PFSense does not like the non-intel hardware and the particular 2.5Gbe NIC that comes with the unit. [See my previous post for more details on that.](https://blog.chriszavala.com/So-Long-PFSense/)
