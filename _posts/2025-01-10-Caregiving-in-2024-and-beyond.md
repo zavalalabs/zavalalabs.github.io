@@ -14,7 +14,7 @@ While i mainly focus on my IT works on this blog another area of my day-to-day o
 
 # Being the advocate
 
-
+How do you show up for the person you are caring for? 
 # Providing care
 
 # Caring for yourself

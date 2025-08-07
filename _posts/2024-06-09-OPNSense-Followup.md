@@ -1,5 +1,4 @@
 ---
-layout: post
 title: OPNSense Follow up 😠
 categories: 
     - Networking
