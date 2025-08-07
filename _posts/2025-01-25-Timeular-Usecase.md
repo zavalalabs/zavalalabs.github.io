@@ -1,6 +1,6 @@
 ---
 title: Timeular A Usecase 
-date: 2024-01-25 01:00:00 +/-TTTT
+date: 2025-01-25 01:00:00 +/-TTTT
 categories:
   - IT
 tags:
@@ -9,3 +9,7 @@ tags:
   - applications
 ---
 # Time tracking, the never ending need
+
+In almost any buisness or in any job position, there is usually a call, typically from inside the organization, that almost any employee or technologist will face. That call or question usually is; "How much time have you spent working on XYZ project/ticket/task/etc." It's never a fun conversation to have and usually a pain to have to reacall what you did the day before or even the last quarter. If you track these items and tasks then things would be easy. But for many that brings up the question of "how can I track this?" 
+
+For me the answer years ago was this little company called Timeular now Early.App. 
