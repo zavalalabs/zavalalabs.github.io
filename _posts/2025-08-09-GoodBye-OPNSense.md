@@ -1,6 +1,6 @@
 ---
 layout: post
-title: So long OPNSense 😠
+title: So long OPNSense 😠 👋
 categories: 
 - Networking
 - Server
