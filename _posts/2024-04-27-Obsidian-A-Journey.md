@@ -2,7 +2,7 @@
 title: Obsidian A Journey
 date: 2024-04-07 01:00:00 +/-TTTT
 categories: [Note_Taking, Obsidian]
-tags: [obsidian, note taking, productivity, tools]     # TAG names should always b lowercase
+tags: [Obsidian, note taking, productivity, tools]     # TAG names should always b lowercase
 ---
 
 
@@ -59,14 +59,14 @@ Each day you create a note for, will automatically place the note in the correct
 
 Examples: (For the below table we are assuming today's date for the files April 27th 2024)
 
-| Example                                           | Input          | Folder Structure Result<br>(/Folder/Folder/File) | Resulting Note Title<br>(File.md) |
-| ------------------------------------------------- | -------------- | ------------------------------------------------ | --------------------------------- |
-| Year, Month(Number), Day(Number)                  | YYYY/MM/DD     | /2024/ 04/27                                     | 27                                |
-| Year, Month(April),Day(Number)                    | YYYY/MMMM/DD   | /2024/April/27                                   | 27                                |
-| Year, Month(Number),Day(Day of Week Abbreviated), | YYYY/MM/DD-ddd | /2024/04/27-Sat                                  | 27-Sat                            |
-| Year, Month(Num-Abriv),Day(Numer)                 | YYYY/MM-MMM/DD | /2024/04-Apr/27                                  | 27                                |
-| Year, Month(Number),Day(Number),Year              | YYYY/MM/DD-YYYY| /2024/04/27-2024                                 | 27-2024                           |
-| Year, Month(number),Month(Full),Day(Month,Day,Year Numbers) | YYYY/MM-MMMM/MM-DD-YYYY | /2024/04-April/04-27-2024 | 04-27-2024                        |
+| Example                                                     | Input                   | Folder Structure Result<br>(/Folder/Folder/File) | Resulting Note Title<br>(File.md) |
+| ----------------------------------------------------------- | ----------------------- | ------------------------------------------------ | --------------------------------- |
+| Year, Month(Number), Day(Number)                            | YYYY/MM/DD              | /2024/ 04/27                                     | 27                                |
+| Year, Month(April),Day(Number)                              | YYYY/MMMM/DD            | /2024/April/27                                   | 27                                |
+| Year, Month(Number),Day(Day of Week Abbreviated),           | YYYY/MM/DD-ddd          | /2024/04/27-Sat                                  | 27-Sat                            |
+| Year, Month(Num-Abriv),Day(Numer)                           | YYYY/MM-MMM/DD          | /2024/04-Apr/27                                  | 27                                |
+| Year, Month(Number),Day(Number),Year                        | YYYY/MM/DD-YYYY         | /2024/04/27-2024                                 | 27-2024                           |
+| Year, Month(number),Month(Full),Day(Month,Day,Year Numbers) | YYYY/MM-MMMM/MM-DD-YYYY | /2024/04-April/04-27-2024                        | 04-27-2024                        |
 
 
 
