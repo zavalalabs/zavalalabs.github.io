@@ -8,6 +8,14 @@ categories:
 - Unifi
 - Uunifi Gateway
 - PFSense
+tags:
+- OPNSense
+- Unifi
+- Uunifi Gateway
+- PFSense
+- Goodbye
+- Networking
+- In progress
 
 ---
 
