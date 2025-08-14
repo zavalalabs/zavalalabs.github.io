@@ -11,6 +11,18 @@ mermaid: true
 # Background
 In 2019, I found myself facing an issue with the future of my note-taking system. In my past note-taking adventures, I relied heavily on Microsoft OneNote and physical lab/engineering notebooks from Bookfactory. But in the modern day, the evolution of working from home and changes to my daily work created a gap. Not every organization utilizes the same software stack when it comes to office productivity software. Years ago you had to choose from various software like Microsoft Office, LibreOffice, Notepad, or even Lotus Notes.
 
+```mermaid
+flowchart TD
+A[2008-2013 - Microsoft OneNote, Lotus Notes, Notepad/Notepad++, Windows Pen Journal] --> B[2013-2019 - Microsoft OneNote with Onedrive/Sharepoint Sync across devices, physical Engineering/Lab Notebooks] --> C[2019-Present - Microsoft OneNote for Legacy data and Obsidian for new data/notes]
+
+%% Color coding
+    style A fill:#e1f5fe
+    style B fill:#c8e6c9
+    style C fill:#fff3e0
+
+
+```
+
 ![History of My Note-Taking](/images/Drawing2024-04-01.png)
 
 
