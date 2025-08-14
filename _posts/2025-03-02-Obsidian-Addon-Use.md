@@ -3,7 +3,7 @@ title: Obsidian Add-on Use
 date: 2025-02-02 01:00:00 +/-TTTT
 categories:
   - Note_Taking
-  - Obsidian
+  - obsidian
 tags:
   - obsidian
   - note

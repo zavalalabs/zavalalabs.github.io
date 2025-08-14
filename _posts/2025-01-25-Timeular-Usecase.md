@@ -7,7 +7,7 @@ tags:
   - productivity
   - tools
   - applications
-  - Obsidian
+  - obsidian
   - Timeular
 ---
 # Time tracking, the never ending need
