@@ -79,7 +79,7 @@ Examples: (For the below table we are assuming today's date for the files April 
   "folder": "Daily Notes"
 ```
 
-So, in the end, what does that workflow look like: 
+So, in the end, what does that workflow look like? If we break it down into a flowchart, we can see how things go as you click the "New Note" button or the calendar icon. 
 
 ```mermaid
 flowchart TD
