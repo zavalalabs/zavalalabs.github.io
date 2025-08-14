@@ -78,3 +78,10 @@ Examples: (For the below table we are assuming today's date for the files April 
   "autorun": false,
   "folder": "Daily Notes"
 ```
+
+So, in the end, what does that workflow look like: 
+
+```mermaid
+A["Create New Note"] -> B["Year folder created"]
+B["Month Folder created"] -> C["Note of the Day Created"]
+```
