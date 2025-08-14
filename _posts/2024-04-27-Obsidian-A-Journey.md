@@ -15,15 +15,16 @@ In 2019, I found myself facing an issue with the future of my note-taking system
 flowchart TD
 A[2008-2013 - Microsoft OneNote, Lotus Notes, Notepad/Notepad++, Windows Pen Journal] --> B[2013-2019 - Microsoft OneNote with Onedrive/Sharepoint Sync across devices, physical Engineering/Lab Notebooks] --> C[2019-Present - Microsoft OneNote for Legacy data and Obsidian for new data/notes]
 
-%% Color coding
-    style A fill:#e1f587
-    style B fill:#c8e6c9
-    style C fill:#5bf3e0
+%% Color coding with high contrast text
+    style A fill:#2d5016,stroke:#4a7c23,stroke-width:2px,color:#ffffff
+    style B fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#ffffff
+    style C fill:#134e4a,stroke:#14b8a6,stroke-width:2px,color:#ffffff
+    
 
 
 ```
 
-![History of My Note-Taking](/images/Drawing2024-04-01.png)
+
 
 
 > Q: Do you need a special application to take notes? 
