@@ -82,5 +82,23 @@ Examples: (For the below table we are assuming today's date for the files April 
 So, in the end, what does that workflow look like: 
 
 ```mermaid
-A["Create New Note"] --> B["Year folder created"] --> C["Note of the Day Created"]
+---
+config:
+      theme: redux
+---
+flowchart TD
+        A(["Create New Note"])
+        A --> B{"Does Year Folder Exist"}
+        B --> C["No"]
+        B --> D["Yes"]
+        C["No"] --> E["Create Year Folder"]
+        D["Yes"] --> F["Month Folder"]
+        E --> G{"Does Month Folder Exist"}
+        F --> G{"Does Month Folder Exist"}
+        G{"Does Month Folder Exist"} --> H[Yes]
+        G{"Does Month Folder Exist"} --> I[No]
+        H --> J["Create Day Note with MM-DD-YY"]
+        I --> K["Create Month Folder"]
+        K --> J["Create Day Note with title MM-DD-YY"]
+
 ```
