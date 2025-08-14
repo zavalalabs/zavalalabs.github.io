@@ -16,9 +16,9 @@ flowchart TD
 A[2008-2013 - Microsoft OneNote, Lotus Notes, Notepad/Notepad++, Windows Pen Journal] --> B[2013-2019 - Microsoft OneNote with Onedrive/Sharepoint Sync across devices, physical Engineering/Lab Notebooks] --> C[2019-Present - Microsoft OneNote for Legacy data and Obsidian for new data/notes]
 
 %% Color coding
-    style A fill:#e1f5fe
+    style A fill:#e1f587
     style B fill:#c8e6c9
-    style C fill:#fff3e0
+    style C fill:#5bf3e0
 
 
 ```
