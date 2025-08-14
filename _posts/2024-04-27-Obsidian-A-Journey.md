@@ -93,8 +93,12 @@ flowchart TD
     G -->|No| K["Create Month Folder"]
     K --> J
     
-    style A fill:#e1f5fe
-    style J fill:#c8e6c9
-    style E fill:#fff3e0
-    style K fill:#fff3e0
+    %% Color coding: Blue=Start, Green=Success, Orange=Action, Gray=Decision
+    style A fill:#3b82f6,stroke:#1e40af,stroke-width:3px,color:#ffffff
+    style J fill:#10b981,stroke:#047857,stroke-width:2px,color:#ffffff
+    style E fill:#f59e0b,stroke:#d97706,stroke-width:2px,color:#ffffff
+    style K fill:#f59e0b,stroke:#d97706,stroke-width:2px,color:#ffffff
+    style B fill:#6b7280,stroke:#374151,stroke-width:2px,color:#ffffff
+    style F fill:#6b7280,stroke:#374151,stroke-width:2px,color:#ffffff
+    style G fill:#6b7280,stroke:#374151,stroke-width:2px,color:#ffffff
 ```
