@@ -2,8 +2,7 @@
 title: Obsidian & Stream Deck ⌨️
 date: 2024-05-07 01:00:00 +/-TTTT
 categories: [Note Taking, Obsidian]
-tags: [tags: [obsidian, note taking, productivity, tools]     # TAG names should always b lowercase
-, Note Taking, productivity, Tools, Stream Deck]     # TAG names should always b lowercase
+tags: [obsidian, Note Taking, productivity, Tools, Stream Deck]  
 ---
 
 
