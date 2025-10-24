@@ -6,7 +6,8 @@ categories:
     - OPNSense
     - PFSense
 tags:
-    - netowrking
+    - networking
+    - firewall
     - pfsense
     - opnsense
     - minipc
