@@ -1,6 +1,6 @@
 ---
-title: AI is a work multiplyer
-date: 2024-05-07 01:00:00 +/-TTTT
+title: AI is a work multiplier
+date: 2025-11-16 01:00:00 +/-TTTT
 categories: [AI Thoughts]
 tags: [ai, productivity, tools]  
 ---
