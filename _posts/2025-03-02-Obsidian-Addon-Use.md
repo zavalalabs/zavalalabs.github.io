@@ -11,7 +11,7 @@ tags:
   - productivity
   - tools
 ---
-# Into
+# Intro
 
 In my previous post, last year about my Obsidian Journey, I've come attached to various Add-Ons that allow for my needs to be met for my note taking systems. 
 
@@ -26,7 +26,7 @@ During my now four years of using the application on and off, the last 3 of thos
 
 Simple but effective! The question that you might be asking, "Is this for pomodoro type countdowns " and the answer is no. (I think I might make a post about Pomodoro at one point.)
 
-This add-on is actually a way to embed a simple contdown to a date and time with a title in your notes. This has come in handy for tracking down Project Start, Project Finish, Fiscal year or anything that you might be neeeding to kep track of that is time sensative that your calendar might not be able to do. 
+This add-on is actually a way to embed a simple countdown to a date and time with a title in your notes. This has come in handy for tracking down Project Start, Project Finish, Fiscal year or anything that you might be needing to keep track of that is time sensitive that your calendar might not be able to do. 
 
 Example in Obsidian: 
 

@@ -10,7 +10,7 @@ tags:
 ---
 # About
 
-While i mainly focus on my IT works on this blog another area of my day-to-day operations is being a care provider for my family. I look at care providing as much as i look at doing my day to day works in IT. There usually is a way to fix things and make this complicated topic work. If we can build these complex systems, we sure as can be 
+While I mainly focus on my IT works on this blog, another area of my day-to-day operations is being a care provider for my family. I look at care providing as much as I look at doing my day-to-day work in IT. There usually is a way to fix things and make this complicated topic work. If we can build these complex systems, we sure can handle this as well. 
 
 # Being the advocate
 
