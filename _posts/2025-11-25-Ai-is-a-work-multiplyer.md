@@ -27,3 +27,5 @@ It's a totally valid worry. I have actually asked myself that question so many t
 Don't let AI just make the product and run with it. Use it to learn how that process can be automated, take the time to read the code, the logic and the flow. You can learn while doing new things and getting time back in your day to focus on higher level tasks.
 
 We are all in this new modern world together. Embrace the change, learn the new tools, and use them to your advantage. AI is here to stay, and those who learn to work with it will be the ones who thrive in the future workplace.
+
+Happy Automating!
