@@ -2,7 +2,7 @@
 title: Obsidian A Journey
 date: 2024-04-07 01:00:00 +/-TTTT
 categories: [Note Taking, obsidian]
-tags: [obsidian, note taking, productivity, tools]     # TAG names should always b lowercase
+tags: [obsidian, note taking, productivity, tools]     # TAG names should always be lowercase
 mermaid: true
 ---
 
@@ -53,7 +53,7 @@ My workflows:
 
 #### Formatting and Structure
 
-Now if you are anything like me you may have been wondering "How can I create the folder structure I want? And won't that take a chunk of my time each year?"  The answer can be as complicated as you want. I ended up spending way more time than I'd care to admit trying to use bash scripts to try and create this file structure each year. It took a lot of keyboard-to-the-head moments to realize I was over-completing things. Using the built-in add-on **Daily Notes** I was able to create a simple structure that fits my needs. However, it was a bit of a pain to wrap my head around to get the results I wanted. 
+Now if you are anything like me you may have been wondering "How can I create the folder structure I want? And won't that take a chunk of my time each year?"  The answer can be as complicated as you want. I ended up spending way more time than I'd care to admit trying to use bash scripts to try and create this file structure each year. It took a lot of keyboard-to-the-head moments to realize I was overcomplicating things. Using the built-in add-on **Daily Notes** I was able to create a simple structure that fits my needs. However, it was a bit of a pain to wrap my head around to get the results I wanted. 
 
 Lets dive into the settings for the **Daily Notes** add-on. 
 

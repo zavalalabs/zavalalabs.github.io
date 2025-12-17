@@ -19,7 +19,7 @@ With all that being said, I want to figure out the next steps. So let's dive in.
 Stream Deck is just a programable keyboard with a screen behind each button. This allows you to choose what the button says and does, eliminating the need to print out little labels or memorize what button you set.
 
 
-> Do you need to use Steam Deck specifically?
+> Do you need to use Stream Deck specifically?
 
 > No, you can use any programmable keyboard or leverage an application like AutoHotkey
 

@@ -2,7 +2,7 @@
 title: Electric Car Things A Guide
 date: 2024-11-10 01:00:00 +/-TTTT
 categories: [Electric Cars]
-tags: [cars, in progress]     # TAG names should always b lowercase
+tags: [cars, in progress]     # TAG names should always be lowercase
 ---
 
 
@@ -21,7 +21,7 @@ Charging you think will be easy, and for the most part, it should be. If you own
 
 ## The Haves and the Have Nots
 
-Charging infrastructure as a whole is all dependent on where you are and if your area wants to adopt them. There have been many stories about  *damaged chargers* have a tendency to come up as people go out hunting to collect money from the coper in the cables. 
+Charging infrastructure as a whole is all dependent on where you are and if your area wants to adopt them. There have been many stories about *damaged chargers* that have a tendency to come up as people go out hunting to collect money from the copper in the cables. 
 
 So, what do you do if you invest in an electric car and don't have the infrastructure? Well, you might be out of luck. Many folks who don't have access to a public infrastructure  to charge are forced to invest in charging at home, which can be its own messy time. If your home does not have adequate space in its electric panel to support adding a dedicated charger, things remain difficult. See the section below about charging at home for more.
 

@@ -29,4 +29,4 @@ After a few hours of stumbling around with the new interface of OPNSense, I was 
 
 # Closing thoughts
 
-Moving to OPNSense was not something I wanted to do, but it was something that had to be done. I am happy with the move and move past using LAGG interfaces to try and get "2Gbe" speeds. The 2.5Gbe NIC is a welcome addition to the network and I am happy to have it... for now. In the future, I may look at moving to a 10Gbe NIC and see if that will work with OPNSense in a different unit.
+Moving to OPNSense was not something I wanted to do, but it was something that had to be done. I am happy with the move and glad to move past using LAGG interfaces to try and get "2Gbe" speeds. The 2.5Gbe NIC is a welcome addition to the network and I am happy to have it... for now. In the future, I may look at moving to a 10Gbe NIC and see if that will work with OPNSense in a different unit.

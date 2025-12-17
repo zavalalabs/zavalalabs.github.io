@@ -4,7 +4,7 @@ title: Lepow DualView Review
 categories: [Review, Lepow, DualView, Monitor, SysAdmin, OnTheGo]
 ---
 
-I had not envisioned doing any kind of dedicated hardware review on this blog. But after the experience I had with the Lepow DualView, I felt compelled to share my thoughts. Specifically, I wanted to share my experience with Lepow's indigogo campaign and then go into the actual product. Its been almost a year in the making of this whole process, since I first backed the campaign. For simplicy sake, I will break this review into two parts: the campaign and the product. Let's dive in!
+I had not envisioned doing any kind of dedicated hardware review on this blog. But after the experience I had with the Lepow DualView, I felt compelled to share my thoughts. Specifically, I wanted to share my experience with Lepow's Indiegogo campaign and then go into the actual product. It's been almost a year in the making of this whole process, since I first backed the campaign. For simplicity sake, I will break this review into two parts: the campaign and the product. Let's dive in!
 
 ## The Campaign
 
@@ -65,7 +65,7 @@ So, did I jump right in? **You Bet I did** the promised delivery was even more e
 
 ### Frustration
 
-As time went on as you can see in the timeline listed above, I maintained some patience since this was, what I was viewing as a inovation inthe movile monitor market. 
+As time went on as you can see in the timeline listed above, I maintained some patience since this was, what I was viewing as an innovation in the mobile monitor market. 
 ## The Product
 
 
