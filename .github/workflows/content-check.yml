@@ -1,0 +1,246 @@
+name: "Content Quality Check"
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - '_posts/**'
+      - '_tabs/**'
+      - '*.md'
+  pull_request:
+    paths:
+      - '_posts/**'
+      - '_tabs/**'
+      - '*.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  content-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Install spell checker
+        run: |
+          npm install -g cspell@latest
+          npm install -g write-good
+      
+      - name: Create cspell configuration
+        run: |
+          cat > .cspell.json << 'EOF'
+          {
+            "version": "0.2",
+            "language": "en",
+            "words": [
+              "Obsidian",
+              "OneNote",
+              "Proxmox",
+              "OPNSense",
+              "PFSense",
+              "Hyper",
+              "Soltera",
+              "Subaru",
+              "Timeular",
+              "Zavala",
+              "zavalalabs",
+              "Anker",
+              "Lepow",
+              "DualView",
+              "Github",
+              "Sharepoint",
+              "Onedrive",
+              "Notepad",
+              "Bookfactory",
+              "GitKraken",
+              "Copilot"
+            ],
+            "ignorePaths": [
+              "node_modules/**",
+              ".git/**",
+              "_site/**",
+              "assets/**",
+              "Gemfile*",
+              "*.yml",
+              "*.json"
+            ],
+            "ignoreRegExpList": [
+              "/```[\\s\\S]*?```/g",
+              "/`[^`]*`/g",
+              "/\\[.*?\\]\\(.*?\\)/g",
+              "/{%.*?%}/g",
+              "/{{.*?}}/g"
+            ]
+          }
+          EOF
+      
+      - name: Run spell check
+        id: spellcheck
+        continue-on-error: true
+        run: |
+          echo "Running spell check..."
+          cspell --no-progress --show-suggestions "_posts/**/*.md" "_tabs/**/*.md" "*.md" > spell-results.txt 2>&1 || true
+          
+          if [ -s spell-results.txt ]; then
+            echo "spelling_issues=true" >> $GITHUB_OUTPUT
+            echo "Spelling issues found:"
+            cat spell-results.txt
+          else
+            echo "spelling_issues=false" >> $GITHUB_OUTPUT
+            echo "No spelling issues found."
+          fi
+      
+      - name: Run grammar and style check
+        id: grammarcheck
+        continue-on-error: true
+        run: |
+          echo "Running grammar and style check..."
+          find _posts _tabs -name "*.md" -type f | while read file; do
+            echo "Checking: $file"
+            write-good "$file" || true
+          done > grammar-results.txt 2>&1
+          
+          if grep -q "In $" grammar-results.txt 2>/dev/null; then
+            echo "grammar_issues=true" >> $GITHUB_OUTPUT
+            echo "Grammar/style suggestions found:"
+            cat grammar-results.txt
+          else
+            echo "grammar_issues=false" >> $GITHUB_OUTPUT
+            echo "No grammar issues found."
+          fi
+      
+      - name: Generate report
+        if: steps.spellcheck.outputs.spelling_issues == 'true' || steps.grammarcheck.outputs.grammar_issues == 'true'
+        run: |
+          cat > content-check-report.md << 'EOF'
+          # Content Quality Check Report
+          
+          This automated check found potential issues in your markdown files.
+          
+          ## 📝 Spelling Issues
+          
+          EOF
+          
+          if [ -s spell-results.txt ]; then
+            echo "\`\`\`" >> content-check-report.md
+            cat spell-results.txt >> content-check-report.md
+            echo "\`\`\`" >> content-check-report.md
+          else
+            echo "✅ No spelling issues found." >> content-check-report.md
+          fi
+          
+          cat >> content-check-report.md << 'EOF'
+          
+          ## ✍️ Grammar and Style Suggestions
+          
+          EOF
+          
+          if [ -s grammar-results.txt ]; then
+            echo "\`\`\`" >> content-check-report.md
+            cat grammar-results.txt >> content-check-report.md
+            echo "\`\`\`" >> content-check-report.md
+          else
+            echo "✅ No grammar issues found." >> content-check-report.md
+          fi
+          
+          cat >> content-check-report.md << 'EOF'
+          
+          ---
+          
+          ### 🔍 How to Fix
+          
+          1. Review the issues listed above
+          2. Make corrections to the affected files
+          3. Push your changes
+          4. This check will run again automatically
+          
+          ### 📚 Common Words to Add
+          
+          If a word is flagged as misspelled but is correct (like a brand name or technical term),
+          you can add it to the custom dictionary in `.cspell.json` under the `words` array.
+          
+          EOF
+      
+      - name: Create Issue for Review
+        if: steps.spellcheck.outputs.spelling_issues == 'true' || steps.grammarcheck.outputs.grammar_issues == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('content-check-report.md', 'utf8');
+            
+            // Check if there's already an open issue
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: ['content-check', 'automated']
+            });
+            
+            const title = '📝 Content Quality Check: Issues Found';
+            
+            if (issues.data.length === 0) {
+              // Create new issue
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: report,
+                labels: ['content-check', 'automated', 'documentation']
+              });
+              console.log('Created new issue for content check results');
+            } else {
+              // Update existing issue
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issues.data[0].number,
+                body: report
+              });
+              console.log('Updated existing issue with new results');
+            }
+      
+      - name: Upload results as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: content-check-results
+          path: |
+            spell-results.txt
+            grammar-results.txt
+            content-check-report.md
+          retention-days: 30
+      
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Content Quality Check Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.spellcheck.outputs.spelling_issues }}" == "true" ] || [ "${{ steps.grammarcheck.outputs.grammar_issues }}" == "true" ]; then
+            echo "⚠️ **Issues Found** - Please review the created issue for details." >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            if [ "${{ steps.spellcheck.outputs.spelling_issues }}" == "true" ]; then
+              echo "- 📝 Spelling issues detected" >> $GITHUB_STEP_SUMMARY
+            fi
+            if [ "${{ steps.grammarcheck.outputs.grammar_issues }}" == "true" ]; then
+              echo "- ✍️ Grammar/style suggestions available" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "✅ **All Clear** - No issues found!" >> $GITHUB_STEP_SUMMARY
+          fi
