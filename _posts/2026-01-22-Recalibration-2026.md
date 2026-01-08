@@ -11,5 +11,5 @@ Welcome 2026, so long 2025, the year is already off to a banger of a start. Befo
 
 >  [Personal Opinion - Disclaimer](https://blog.chriszavala.com/disclaimer/#:~:text=Personal%20Opinions)
 
-With our disclamer 
+With our disclaimer 
 
