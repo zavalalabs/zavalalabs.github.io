@@ -23,6 +23,7 @@ This blog is where I share what I'm learning, experimenting with, and occasional
 - **Reviews & Gear** — I like to test out tech and tell you if it's actually worth your money
 - **Productivity & Personal Systems** — Tools like Obsidian, time tracking, and how I try (and often fail) to stay organized
 - **General Tech Thoughts** — Random observations about IT, working from home, and the future of technology
+- **Political & Social Commentary** — Occasionally, I dive into local, national, and international issues that have a broader impact outside of the world of technology (see my [Personal Opinion - Disclaimer](https://blog.chriszavala.com/disclaimer/#:~:text=Personal%20Opinions) )
 
 ### Why This Blog?
 
@@ -30,7 +31,7 @@ Honestly? I've always found it helpful to write things down. Whether it's docume
 
 ### Let's Connect
 
-You can find me on [GitHub](https://github.com/zavalalabs) and [Twitter](https://twitter.com/username) if you want to discuss tech, share ideas, or just say hello.
+You can find me on [GitHub](https://github.com/zavalalabs) and [BlueSky](https://bsky.app/profile/chriszavalatech.bsky.social) if you want to discuss tech, share ideas, or just say hello.
 
 ---
 
