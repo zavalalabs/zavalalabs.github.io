@@ -6,6 +6,7 @@ tags: [ai, productivity, tools]
 ---
 
 > Are you afraid of AI, or are you someone who is fully embracing it?
+
 # AI is a Work Multiplier
 
 Employees all over the world have started to leverage AI tooling in their day to day work. Some may be using it in Google email composition, or using AI-generated summaries for long, complex emails to better understand the context of long emails. Does anyone else ever get randomly CC'd on an email thread that is 15 emails long and you have no idea what is going on? AI can help with that. (If you have not yet tried that and you got that idea cooking in your brain, go try it out now; I will wait.) Isn't that nice? (I hope you tried it and it worked well for you.)
