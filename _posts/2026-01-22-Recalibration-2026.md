@@ -7,8 +7,11 @@ tags: [new year, productivity, politics, social]
 
 # It's 2026, now what? 
 Welcome, 2026; so long, 2025. The year is already off to a banger of a start. Before beginning my dive into my topics in this article, please note this entire post needs to be understood from the focal lens of my opinion disclaimer. 
+
 > [Personal Opinion - Disclaimer](https://blog.chriszavala.com/disclaimer/#:~:text=Personal%20Opinions) 
 With our disclaimer out of the way, let's dive right on in. 
+
+
 ## Recalibration 
 <something here about going in and doing something new or looking at 2026 with a new insight or thought> 
 ## Political happenings and thoughts 

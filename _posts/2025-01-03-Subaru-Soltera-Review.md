@@ -9,6 +9,7 @@ tags:
   - EV
 ---
 # About
+My Subaru Soltera Touring model from 2024 has been an interesting journey. Though I do complain, it's mainly been positive. 90% positive, might I add. 
 
 # Likes
 
@@ -20,12 +21,13 @@ Any observant reader of many of the forums or searches for this issue will note 
 
 My open call for Subaru to fix some things with your Toyota counterparts:
 
-> note to self: find feedback avenues with Toyota and Subaru
+> Note to self 📝: find feedback avenues with Toyota and Subaru
 
 ### Instrument Cluster
 
 * Get rid of the “Ready” light or let us turn it off. 
 	* This has to be one of the most annoying icons on the cluster. I know the car is on and ready to go. When it's not ready, you already flash a warning on the screen over and over. 
+	* Or better yet, once you have engaged in driving and are clearly going, let the light go. I want to have light burn in on the dash. Will Subaru be ready to offer us new clusters for when that happens? Prove me wrong. 
 * Front crossing warning: 
 	* When I turn this feature off, leave it off! This warning system is a good tool, but when you *CAN* see traffic in front of you, I don't need extra warnings. Maybe for first-time drivers it's fine, but for experienced drivers it's a nag that does not need to be around.  When this system is on, and you can already see, an extra alert makes you second guess what you are  already doing. 
 
