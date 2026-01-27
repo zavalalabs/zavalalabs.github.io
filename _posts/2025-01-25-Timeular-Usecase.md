@@ -9,6 +9,7 @@ tags:
   - applications
   - obsidian
   - Timeular
+  - In Progress
 ---
 # Time tracking, the never ending need
 
