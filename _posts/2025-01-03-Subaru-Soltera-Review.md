@@ -14,11 +14,13 @@ tags:
 
 # Dislikes
 ### 12-Volt Battery Discharge
-Any observant reader of many of the forums or searches for this issue, will  note that these 12-volt batteries are far too underpowered, and while many seem to have no problem with the 12-volt battery in warmer climates with fewer issues. In colder climates, the 12-volt battery will have a painful experience. In the latest cold snap in January 2026, i had my second experience with the 12-volt battery. Even after a full warranty replacement of the battery, encountered yet another failed attempt to enter “Ready” mode. This issue made it seem as if the main traction battery had dropped from 55% to 0 with one cold night. That is unacceptable even for an ICE vehicle. 
+Any observant reader of many of the forums or searches for this issue will note that these 12-volt batteries are far too underpowered, and while many seem to have no problem with the 12-volt battery in warmer climates with fewer issues. In colder climates, the 12-volt battery will have a painful experience. In the latest cold snap in January 2026, I had my second experience with the 12-volt battery. Even after a full warranty replacement of the battery, encountered yet another failed attempt to enter “Ready” mode. This issue made it seem as if the main traction battery had dropped from 55% to 0 with one cold night. That is unacceptable even for an ICE vehicle. 
 
 # Areas for improvement
 
 My open call for Subaru to fix some things with your Toyota counterparts:
+
+> note to self: find feedback avenues with Toyota and Subaru
 
 ### Instrument Cluster
 
