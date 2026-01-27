@@ -18,6 +18,7 @@ With our disclaimer out of the way, let's dive right on in.
 ### National 
 #### Venezuela 
 This first entry into the year is off to a deeply unsettling start as we continue to see more and more focus in the USA on those that don't fit the narrative of the current administration. In today's political world, there is much that can lead to our words and ideas being taken in the wrong context politically, but this is one of those times when, in 2026, we are fresh from the international activities by the [USA in Venezuela](https://en.wikipedia.org/wiki/2026_United_States_strikes_in_Venezuela). These actions taken by the administration are certainly cause for alarm. As someone who grew up during the attacks of [9/11](https://en.wikipedia.org/wiki/September_11_attacks) and the subsequent war that ended up lasting roughly 20 years, it's not lost on me that we are again facing a potential new forever war, except now we are the ones doing the most wrong here. We invaded (again) another country and asserted ourselves as being some kind of global police. When in the same breath some will say, “The US cannot police the world.” The 
+
 #### LGBTQ+ Issues 
 
 When will we let people who fall under the LGBTQ umbrella just exist and stop attempting to legislate them out of existence and attempt to wipe them from existence in general? Too many “religious” and “politically minded people” are out here trying to rid the world of the existence of my people. It seems that with our human nature, we are consistently trying to wipe one another off the face of the planet. We seem to find someone to mark as other, and now we are seeing this mindset amplified again against the LGBTQ community. 
@@ -28,7 +29,12 @@ With such uses as the argument around slavery (yes, these things are related) an
 At its core, the ["First Amendment also protects people’s right to worship however they choose, or to not worship at all. Protecting people’s right to decide what is right for themselves without government interference is a key foundation (and result) of our democracy.](https://www.nps.gov/articles/000/church_state_historical.htm) From this we can understand that we as individuals are not required by law to have any religious affiliation or belief. Therefore, in our creation of law and oversight. We as people in the United States should not be legislating with our own thoughts of any such god or theory of religious belief. Our right to be free from that association is paramount in our freedom to be with those that we love, in the foundation of our marriage. Within legal restrictions on marriage, that is. Too often the argument has been made or attempted to be made that in order to protect children, we must not allow gay marriage or for the gays to be visible on the world stage. Too regularly, in the last few years, I have seen many arguments for the restriction and 
 #### Race Relations and targeting of those “others.”
 On 01/07/2026, the ever-evolving use of ICE in the local communities spiked. 
+
+> Does writing this put a target on my back? Sadly, I fully believe it just might. As many who have come out and posted anything, be that on platforms like TikTok, Twitter (it won't be called the new name here), BlueSky, Instagram, the list goes on and on. Calls for the public defaming of these authors and calls for people to lose their jobs are far too many. Freedom of speech is not without danger. In today's world, these dangers and daggers are mainly pointed at anyone who does not align themselves with those creating the chaos we are seeing. 
+
+
 ### Local 
 #### Boulder 
 #### Longmont 
-#### Colorado
+#### Colorado as a whole
+#### Nation Wide
