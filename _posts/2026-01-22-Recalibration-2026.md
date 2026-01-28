@@ -41,7 +41,7 @@ At its core, the ["First Amendment also protects people’s right to worship how
 
 On 01/07/2026, the ever-evolving use of ICE in the local communities spiked. We saw with our own eyes the [killing of Renée Good](https://en.wikipedia.org/wiki/Killing_of_Ren%C3%A9e_Good) 
 and this was thought to be the tipping point of our current interactions with the group known as ICE. However, now having to update this later on in teh same month, we now see another interaction [killing of Alex Pretti](https://en.wikipedia.org/wiki/Killing_of_Alex_Pretti). The continued interactions resulting in deaths are overwhelming; this in history was something we in the United States would have pushed back on in any other country. Yet its happening on our doorstep. We, as always, are out here pushing into the deeper throes of being anti USA. We are now the antithetical version of ourselves. Not only are we as a country allowing this to happen, we are not doing anything to stop it.  When I say this,  “We” in this context is the larger USA Government and representation. There are countless people out marching and protesting to protect the rights of our fellow human being in this country. Our representatives have los ttheir teeth, we the american people have lost our teeth with our representatives.  We call, we email, we fax and what happens? It feels like nothing. 
-As noted on The View, Sunny Hosten brought up a very big point that has enumerated my thoughts and feelings on teh murder of Alex Pretti. To use her words "Harkening to the time when america got really engaged after the murder of the two wthite men in the race riots, then the FBI opnened the field office to investigate " ^1
+As noted on The View, Sunny Hosten brought up a very big point that has enumerated my thoughts and feelings on teh murder of Alex Pretti. To use her words "Harkening to the time when america got really engaged after the murder of the two wthite men in the race riots, then the FBI opnened the field office to investigate " [^1]
 
 > Does writing this put a target on my back? Sadly, I fully believe it just might. As many who have come out and posted anything, be that on platforms like TikTok, Twitter (it won't be called the new name here), BlueSky, Instagram, the list goes on and on. Calls for the public defaming of these authors and calls for people to lose their jobs are far too many. Freedom of speech is not without danger. In today's world, these dangers and daggers are mainly pointed at anyone who does not align themselves with those creating the chaos we are seeing. 
 
@@ -54,4 +54,4 @@ This first entry into the year is off to a deeply unsettling start as we continu
 
 # Foot Notes
 
-FBI Field office^1
+FBI Field office[^1]
