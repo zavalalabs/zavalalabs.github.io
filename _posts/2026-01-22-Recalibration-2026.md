@@ -1,8 +1,15 @@
 ---
 title: Recalibration 2026
-date: 2026-01-22 01:00:00 +/-TTTT
-categories: [Thoughts]
-tags: [new year, productivity, politics, social, wip]  
+date: 2026-01-22 08:00:00 -0600
+categories:
+  - Thoughts
+tags:
+  - new-year
+  - productivity
+  - politics
+  - social
+  - wip
+description: "Entering 2026 with a focus on recalibration — what to carry forward, what to leave behind, and personal thoughts on the rapidly shifting tech and political landscape."
 ---
 
 > This page is a WIP (work in progress): some items may not be fully fleshed out at this time.

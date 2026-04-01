@@ -1,15 +1,15 @@
 ---
 title: Obsidian Add-on Use
-date: 2025-02-02 01:00:00 +/-TTTT
+date: 2025-03-02 08:00:00 -0600
 categories:
-  - Note_Taking
-  - obsidian
+  - Note Taking
 tags:
   - obsidian
-  - note
-  - taking
+  - note-taking
   - productivity
   - tools
+  - in-progress
+description: "The Obsidian add-ons that actually made it into my daily workflow — from Countdown Timer to TogglTrack — and which ones gave me the most headaches along the way."
 ---
 # Intro
 

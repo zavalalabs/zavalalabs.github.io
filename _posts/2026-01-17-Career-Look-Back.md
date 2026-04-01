@@ -1,8 +1,13 @@
 ---
 title: Career Look Back
-date: 2026-01-17 01:00:00 +/-TTTT
-categories: [Career, SysAdmin]
-tags: [Career, Sysadmin, thoughts ]
+date: 2026-01-17 08:00:00 -0600
+categories:
+  - Career
+tags:
+  - career
+  - sysadmin
+  - thoughts
+description: "Reflections on the two ways people leave jobs — on your own terms or through a layoff — and what each experience really feels like from the inside."
 ---
 
 # Layoff Season (Never Ends!)

@@ -1,12 +1,14 @@
 ---
 title: Caregiving in 2024 and beyond
-date: 2024-01-10 01:00:00 +/-TTTT
+date: 2025-01-10 08:00:00 -0600
 categories:
-  - caregiving
+  - Caregiving
 tags:
   - caregiving
   - self-care
   - healthcare
+  - in-progress
+description: "An honest look at being a family caregiver alongside a full-time IT career — advocacy, providing care, managing guilt, and protecting your own mental health."
 ---
 # About
 

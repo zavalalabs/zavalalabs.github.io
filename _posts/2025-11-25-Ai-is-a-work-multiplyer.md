@@ -1,8 +1,15 @@
 ---
-title: AI is a work multiplier
-date: 2025-11-16 01:00:00 +/-TTTT
-categories: [AI Thoughts]
-tags: [ai, productivity, tools]  
+title: AI Is a Work Multiplier
+date: 2025-11-25 08:00:00 -0600
+categories:
+  - Productivity
+tags:
+  - ai
+  - productivity
+  - tools
+  - automation
+  - workflow
+description: "AI isn't here to replace you — it's here to handle the repetitive work so you can focus on higher-level tasks. Here's how to use it as a force multiplier, not a crutch."
 ---
 
 > Are you afraid of AI, or are you someone who is fully embracing it?

@@ -1,8 +1,15 @@
 ---
 title: Electric Car Things A Guide
-date: 2024-11-10 01:00:00 +/-TTTT
-categories: [Electric Cars]
-tags: [cars, in progress]     # TAG names should always be lowercase
+date: 2024-11-10 08:00:00 -0600
+categories:
+  - Cars
+tags:
+  - cars
+  - electric-car
+  - ev
+  - charging
+  - in-progress
+description: "A practical guide to owning an electric car — what you think you know about charging, infrastructure, and public networks vs. what you actually learn on the road."
 ---
 
 

@@ -1,7 +1,15 @@
 ---
-layout: post
 title: So Long pfSense 👋
-categories: [Networking, Server, OPNSense, pfSense]
+date: 2024-06-02 08:00:00 -0700
+categories:
+  - IT
+tags:
+  - networking
+  - firewall
+  - pfsense
+  - opnsense
+  - homelab
+description: "After 10 years on pfSense, new AMD hardware forced a switch. Here's how the migration to OPNSense went — hardware discovery, VLAN setup, and first impressions."
 ---
 # Background
 The time has come, the walrus said... to say goodbye to PFSense.

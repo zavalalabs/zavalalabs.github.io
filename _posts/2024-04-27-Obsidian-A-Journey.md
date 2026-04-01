@@ -1,9 +1,15 @@
 ---
 title: Obsidian A Journey
-date: 2024-04-07 01:00:00 +/-TTTT
-categories: [Note Taking, obsidian]
-tags: [obsidian, note taking, productivity, tools]     # TAG names should always be lowercase
+date: 2024-04-27 08:00:00 -0700
+categories:
+  - Note Taking
+tags:
+  - obsidian
+  - note-taking
+  - productivity
+  - tools
 mermaid: true
+description: "From OneNote and paper notebooks to Obsidian — how I set up daily notes with automated folder structures and why it finally clicked after years of trying."
 ---
 
 

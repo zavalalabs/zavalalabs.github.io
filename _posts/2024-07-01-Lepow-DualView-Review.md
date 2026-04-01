@@ -1,7 +1,16 @@
 ---
-layout: post
 title: Lepow DualView Review
-categories: [Review, Lepow, DualView, Monitor, SysAdmin, OnTheGo]
+date: 2024-07-01 08:00:00 -0700
+categories:
+  - IT
+tags:
+  - review
+  - monitor
+  - portable
+  - gear
+  - indiegogo
+mermaid: true
+description: "An honest review of the Lepow DualView portable monitor — backed via Indiegogo in 2023 and finally received in 2024. The campaign story and the product reality."
 ---
 
 I had not envisioned doing any kind of dedicated hardware review on this blog. But after the experience I had with the Lepow DualView, I felt compelled to share my thoughts. Specifically, I wanted to share my experience with Lepow's Indiegogo campaign and then go into the actual product. It's been almost a year in the making of this whole process, since I first backed the campaign. For simplicity's sake, I will break this review into two parts: the campaign and the product. Let's dive in!

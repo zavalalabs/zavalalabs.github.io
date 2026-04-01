@@ -1,16 +1,16 @@
 ---
 title: OPNSense Follow up 😠
-categories: 
-    - Networking
-    - Server
-    - OPNSense
-    - pfSense
+date: 2024-06-09 08:00:00 -0700
+categories:
+  - IT
 tags:
-    - networking
-    - firewall
-    - pfSense
-    - opnsense
-    - minipc
+  - networking
+  - firewall
+  - pfsense
+  - opnsense
+  - minipc
+  - in-progress
+description: "A detailed breakdown of the five pain points I hit after switching to OPNSense — config migration, VLANs, firewall rules, VPN, and DNS — with what I found."
 ---
 
 It's been a few days since I installed OPNSense on a new mini computer that I used as a host for proxmox in my home lab. After having experience with the hardware in deploying my proxmox cluster, I decided to use the same hardware for my firewall. It would have been nice to use PFSense on this new hardware; however, as I mentioned in my previous post, PFSense does not like the non-intel hardware and the particular 2.5Gbe NIC that comes with the unit. [See my previous post for more details on that.](https://blog.chriszavala.com/So-Long-PFSense/)

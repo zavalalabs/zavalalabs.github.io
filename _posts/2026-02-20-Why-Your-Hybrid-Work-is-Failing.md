@@ -1,12 +1,14 @@
 ---
 title: Why Your Hybrid Work is Failing
-date: 2026-02-23 01:00:00 +/-TTTT
+date: 2026-02-20 08:00:00 -0600
 categories:
   - Thoughts
 tags:
-  - Career
+  - career
   - management
   - thoughts
+  - in-progress
+description: "Hybrid work isn't failing because of remote employees — it's failing because organizations lost focus on people and optimized for optics instead. An honest breakdown."
 ---
 
 # We lost focus on people and focused on money

@@ -1,12 +1,16 @@
 ---
 title: Subaru Soltera (2024) Review
-date: 2024-01-03 01:00:00 +/-TTTT
+date: 2025-01-03 08:00:00 -0600
 categories:
-  - cars
+  - Cars
 tags:
   - cars
-  - electric cars
-  - EV
+  - electric-car
+  - ev
+  - subaru
+  - soltera
+  - review
+description: "A real-world review of the 2024 Subaru Solterra Touring — what works well, the 12-volt battery cold weather issues, and feedback for Subaru on quality of life improvements."
 ---
 # About
 My Subaru Soltera Touring model from 2024 has been an interesting journey. Though I do complain, it's mainly been positive. 90% positive, might I add. 

@@ -1,7 +1,15 @@
 ---
-layout: post
 title: Proxmox A Journey 💻
-categories: [Proxmox, Virtualization, Productivity, Server, Hyper-V]
+date: 2024-05-25 08:00:00 -0700
+categories:
+  - IT
+tags:
+  - proxmox
+  - virtualization
+  - homelab
+  - server
+  - in-progress
+description: "The journey into Proxmox as a home lab hypervisor — background on past platforms like VirtualBox, VMware, and Hyper-V, and why Proxmox finally won out."
 ---
 > **Note:** This post is currently in progress.
 

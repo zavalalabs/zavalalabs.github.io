@@ -1,15 +1,16 @@
 ---
-title: Timeular A Usecase 
-date: 2025-01-25 01:00:00 +/-TTTT
+title: Timeular A Usecase
+date: 2025-01-25 08:00:00 -0600
 categories:
-  - IT
+  - Productivity
 tags:
   - productivity
   - tools
   - applications
   - obsidian
-  - Timeular
-  - In Progress
+  - timeular
+  - in-progress
+description: "Why I use Timeular (now Early.App) for time tracking instead of spreadsheets — and how it helps answer the 'what did you work on today?' question at work."
 ---
 # Time tracking, the never ending need
 

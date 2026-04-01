@@ -1,9 +1,15 @@
 ---
 title: Goodbye Hyper-V (Free) It was nice knowing you! 🖥️
-date: 2024-05-07 01:00:00 +/-TTTT
-categories: [Home Lab, Servers]
-tags: [virtualization, server, hyper-v]     # TAG names should always b lowercase
-
+date: 2024-05-07 08:00:00 -0700
+categories:
+  - IT
+tags:
+  - virtualization
+  - server
+  - hyper-v
+  - homelab
+  - windows-server
+description: "Hyper-V Free (Server Core) reached end of support in January 2024. A quick look at what worked, what didn't, and what comes next for the home lab."
 ---
 
 

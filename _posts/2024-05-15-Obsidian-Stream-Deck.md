@@ -1,8 +1,15 @@
 ---
 title: Obsidian & Stream Deck ⌨️
-date: 2024-05-07 01:00:00 +/-TTTT
-categories: [Note Taking, Obsidian]
-tags: [obsidian, Note Taking, productivity, Tools, Stream Deck]  
+date: 2024-05-15 08:00:00 -0700
+categories:
+  - Note Taking
+tags:
+  - obsidian
+  - note-taking
+  - productivity
+  - tools
+  - stream-deck
+description: "Exploring how to connect an Elgato Stream Deck to Obsidian for faster note-taking automation — what it is, why it helps, and where to start."
 ---
 
 

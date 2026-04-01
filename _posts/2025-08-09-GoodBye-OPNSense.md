@@ -1,22 +1,16 @@
 ---
-layout: post
 title: So long OPNSense 😠 👋
-categories: 
-- Networking
-- Server
-- OPNSense
-- Unifi
-- Unifi Gateway
-- PFSense
+date: 2025-08-09 08:00:00 -0700
+categories:
+  - IT
 tags:
-- OPNSense
-- Unifi
-- Unifi Gateway
-- PFSense
-- Goodbye
-- Networking
-- In progress
-
+  - opnsense
+  - pfsense
+  - networking
+  - unifi
+  - firewall
+  - in-progress
+description: "After giving OPNSense a real shot, the UI friction and firewall rule headaches finally broke me. Here's why I'm moving on and what's coming next for the home network."
 ---
 
 OPNSense, it was nice(?) while it lasted. But now, it's time to say goodbye. 😢

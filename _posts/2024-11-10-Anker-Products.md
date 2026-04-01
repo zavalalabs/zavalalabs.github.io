@@ -1,10 +1,14 @@
 ---
 title: Anker Products Reviews
-date: 2024-11-10 01:00:00 +/-TTTT
+date: 2024-11-10 08:00:00 -0600
 categories:
-  - Desk Tools
+  - Productivity
 tags:
-  - Portable-Power
+  - portable-power
+  - charging
+  - gear
+  - in-progress
+description: "A running review of Anker charging products across multiple years — from the 250W Prime Charging Station to GaN power banks — with specs and real-world notes."
 ---
 # TL;DR
 
