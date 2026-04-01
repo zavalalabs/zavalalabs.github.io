@@ -23,4 +23,4 @@ When I speak of C-suite personnel, I'm talking about ones who traditionally get 
 ### Middle Managers
 
 ### Workers—the ones actually doing the hard work
-These workers are where everything falls apart. they get the most criticism and frequently the most backlash the fastest. When you hear of burn out this is ground zero for it. 
+These workers are where everything falls apart. they get the most criticism and frequently the most backlash the fastest. When you hear of burn out this is ground zero for it. Especially when it hits with the types of high performers that are expected at these levels before they get put into the tough spot of bieng middle managers. These high performers, like  called out in the[(tiktok  by Craig Willard](https://www.tiktok.com/@craigwillard/video/7622733476852256031?_r=1&_t=ZT-95AV3pqvpj3) are often teh one being pulled in a million directions becase they are being asked questions, being interupted by these chats, questions, dropbys.  THis will make high performers not want to perfomr anymore. How often can you make a high performance engine run high RPMS and constanly switching hears and expect it to never run out. 
