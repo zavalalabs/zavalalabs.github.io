@@ -2,8 +2,11 @@
 title: Recalibration 2026
 date: 2026-01-22 01:00:00 +/-TTTT
 categories: [Thoughts]
-tags: [new year, productivity, politics, social]  
+tags: [new year, productivity, politics, social, wip]  
 ---
+
+> This page is a WIP (work in progress): some items may not be fully fleshed out at this time.
+
 
 # It's 2026, now what? 
 Welcome, 2026; so long, 2025. The year is already off to a banger of a start. Before beginning my dive into my topics in this article, please note this entire post needs to be understood from the focal lens of my opinion disclaimer. 
