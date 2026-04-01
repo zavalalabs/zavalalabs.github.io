@@ -15,9 +15,9 @@ mermaid: true
 description: "A real-world look at EV charging costs and DC fast charger performance in Colorado, based on Subaru Solterra ownership and daily driving experience."
 ---
 
-I pulled 17 months of ChargePoint and Electrify America session history and ran the numbers so you don't have to. If you own an EV in Colorado — especially a Subaru Solterra — and you want to know what public charging actually costs, whether the DC fast chargers are worth it, and whether EA is as unreliable as people say, here's the data.
+I pulled 17 months of ChargePoint and Electrify America session history and ran the numbers so you don't have to. If you own an EV in Colorado like me with  my  Subaru Solterra ' 24 and you want to know what public charging actually costs, whether the DC fast chargers are worth it, and whether EA is as unreliable as people say, here's the data.
 
-This isn't a theoretical comparison. The ChargePoint data covers October 2024 through March 2026 — 127 sessions across five operators and a dozen locations in the Denver-Boulder-Fort Collins corridor. The Electrify America data runs October 2024 through January 2026, 26 sessions at five Colorado locations. Same car, same roads, 17 months of real receipts.
+This isn't a theoretical comparison. The ChargePoint data covers October 2024 through March 2026 an amazing 127 sessions across five operators and a dozen locations in the Denver-Boulder-Fort Collins corridor. The Electrify America data runs October 2024 through January 2026, 26 sessions at five Colorado locations. Same car, same roads, 17 months of real receipts. Its also worth noting that I also have an Electrify America subscription, to try and unlock lower per KWh cost rates. 
 
 **ChargePoint (Oct 2024–Mar 2026): 127 sessions. ~3,373 kWh paid + 22 kWh free. ~$1,899 spent.**
 **Electrify America (Oct 2024–Jan 2026): 26 sessions. 491 kWh. $263.25 spent.**
@@ -186,9 +186,7 @@ This one is its own category of frustrating. On May 17, 2025, I pulled into the 
 
 **Total: $2.97 charged. ~5.86 kWh delivered. No usable charge. I drove away and found a ChargePoint station.**
 
-What makes this especially aggravating is the MaxChargingRate data. All four pedestals reported 86–90 kW of initial rate — so the hardware was communicating. Something in the session initialization was causing each one to terminate almost immediately. Whether it was a station-side firmware issue, a network outage affecting the payment authorization, or something in the car's state at that moment, I have no definitive answer. What I do know is that EA billed me for all four attempts.
-
-EA's customer support did eventually issue a credit for these sessions, but that requires you to notice the charges, contact support, and wait. It's not automatic.
+What makes this especially aggravating is the MaxChargingRate data. All four pedestals reported 86–90 kW of initial rate — so the hardware was communicating. Something in the session initialization was causing each one to terminate almost immediately. Whether it was a station-side firmware issue, a network outage affecting the payment authorization, or something in the car's state at that moment, I have no definitive answer. What I do know is that EA billed me for all four attempts. And when you have to have an active method on any EV Charger provider's network. this can get especially annoying as this will eat up your fiances. 
 
 ### The Aborted Session Tax
 
@@ -200,7 +198,7 @@ Total cost for those 6 sessions: **$4.84** for **8.66 kWh** of energy that didn'
 
 It's worth being balanced here, because the bad sessions are memorable and the good ones are easy to forget.
 
-The Westminster City Center session on May 3, 2025 — 37.77 kWh in 29 minutes at 94 kW — was as good as DC fast charging gets on a Solterra. The BOA Highlands Ranch session on July 5, 2025 — 19.14 kWh in 13 minutes at 94 kW — was almost absurdly fast. The King Soopers Erie session in April 2025 hit 89 kW and finished cleanly.
+The Westminster City Center session on May 3, 2025 — 37.77 kWh in 29 minutes at 94 kW — was as good as DC fast charging gets on a Solterra. For that trip being a late night trip and not to mention ambiant temp around 60F, that session was quite the positive and most fitting "ideal charging time" on an Electrify America charger.  The BOA Highlands Ranch (Electify America) session on July 5, 2025 — 19.14 kWh in 13 minutes at 94 kW — was almost absurdly fast, during which the car battery was very cooled down after a jouny down the i25 corridor and resting at a destination for 4+ hours. The King Soopers Erie session in April 2025 hit 89 kW and finished cleanly.
 
 When EA works, it is fast and the network coverage is genuinely better than ChargePoint for highway travel. The stations I mentioned above had no drama, no throttling, no aborts. Plug in, charge, go.
 
@@ -216,13 +214,13 @@ If you're a Boulder County area resident with an EV, check the ChargePoint app f
 
 ## What I Actually Pay Per Mile
 
-The Solterra's EPA-rated range is approximately 222 miles on a 71.4 kWh usable battery. That works out to an efficiency of **0.322 kWh per mile** under EPA conditions.
+The Solterra's EPA-rated range is approximately 222 miles on a 71.4 kWh usable battery. That works out to an efficiency of **0.322 kWh per mile** under EPA conditions. And if you were to compare that to my ICE vehicle (Subaruu Ascent 2021)
 
 Using that efficiency figure and the real-world rates from 17 months of actual sessions:
 
 | Source | Rate | Cost Per Mile | Notes |
 |---|---|---|---|
-| Home (Xcel Energy) | ~$0.13/kWh | ~$0.042/mile | Cheapest by far |
+| Home (City of Longmont Power) | $0.10570/kWh | ~$0.042/mile | Cheapest by far |
 | UCAR/NCAR L2 (blended) | $0.57/kWh | ~$0.184/mile | ChargePoint, pre-tax |
 | Zero6 Energy DC | $0.52/kWh | ~$0.167/mile | ChargePoint, pre-tax |
 | EA (pre-tax est.) | ~$0.50/kWh | ~$0.161/mile | Normalized for comparison |
@@ -231,7 +229,7 @@ Using that efficiency figure and the real-world rates from 17 months of actual s
 
 For comparison, a gasoline SUV getting 28 mpg at $3.20/gallon costs about **$0.114/mile** in fuel. Home charging on the Solterra beats that handily. Everything else on the list costs more per mile than a reasonably fuel-efficient gas vehicle.
 
-The takeaway is direct: **home charging wins**. Workplace L2 is a close second if you can get it, and even at $0.57/kWh blended it's cheaper than DC fast charging. Public DC fast charging — whether ChargePoint or EA — is a convenience service, not a cost-savings strategy. If you have to rely exclusively on public DC fast charging because you lack home or workplace access, the EV cost advantage evaporates compared to a modern hybrid.
+The takeaway is direct: **home charging wins**. During this experiment, of owning the EV, and only relying on the public infrastructure alone. Has resulted in some great data. Workplace L2 is a close second if you can get it, and even at $0.57/kWh blended it's cheaper than DC fast charging. Public DC fast charging — whether ChargePoint or EA — is a convenience service, not a cost-savings strategy. If you have to rely exclusively on public DC fast charging because you lack home or workplace access, the EV cost advantage evaporates compared to a modern hybrid.
 
 ## Tips for Colorado EV Owners
 
