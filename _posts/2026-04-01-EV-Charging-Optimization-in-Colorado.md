@@ -264,6 +264,32 @@ For comparison, a gasoline SUV getting 28 mpg at $3.20/gallon costs about **$0.1
 
 The takeaway is direct: **home charging wins**. Running this experiment and relying entirely on public infrastructure produced a lot of useful data, but it also confirmed something pretty clearly: the economics only work if you have access to cheap, slow charging. Workplace L2 is a close second if you can get it, and even at $0.57/kWh blended it is cheaper than DC fast charging. Public DC fast charging, whether ChargePoint or EA, is a convenience service, not a cost-savings strategy. If you have to rely exclusively on public DC fast charging because you lack home or workplace access, the EV cost advantage evaporates compared to a modern hybrid.
 
+## Carbon Per Mile: What the Grid Math Actually Says
+
+The cost-per-mile section above makes the financial case for home charging. There's a parallel question worth answering: what did those same 3,864 kWh actually look like in CO2 terms?
+
+Colorado's Front Range grid is managed primarily by Xcel Energy. The EPA's eGRID data for the RMPA subregion (Rocky Mountain Power Area) puts the grid emissions intensity at roughly **0.56 lbs of CO2 per kWh** as of the most recent published figures. That number is trending down as Xcel adds wind and solar capacity under its Colorado Energy Plan, but 0.56 lbs/kWh is the honest current baseline.
+
+Applied to the 17-month dataset:
+
+| Metric | Figure |
+|--------|--------|
+| Total kWh charged | 3,864 kWh |
+| CO2 from charging (0.56 lbs/kWh) | ~2,164 lbs (~0.98 metric tons) |
+| Derived miles driven (÷ 0.322 kWh/mile) | ~12,000 miles (estimated) |
+| Same miles in a 26 mpg gas SUV (19.6 lbs CO2/gal) | ~9,054 lbs (~4.1 metric tons) |
+| Estimated CO2 avoided | **~6,890 lbs (~3.1 metric tons)** |
+
+The ~12,000-mile figure is derived from the kWh total and the Solterra's EPA efficiency — not pulled from an odometer. Treat it as an approximation. But even with generous rounding, the direction is clear: the EV produced roughly one-quarter the CO2 of a comparable gas vehicle over the same miles, on a grid that is still partially coal and gas.
+
+That said, there's a meaningful nuance here that most EV carbon comparisons skip: **when you charge matters, not just how much you charge.**
+
+Colorado's overnight hours typically carry more wind generation and lower grid demand than afternoon peak hours. Charging at 2 AM on the Xcel grid is not the same carbon calculation as charging at 5 PM when gas peaker plants are running to cover air conditioning load. The difference is real, though difficult to quantify without hour-by-hour eGRID data. What it means practically: if you have any control over when charging happens — overnight timers at home, or choosing a longer L2 session at work over a midday DCFC stop — you're likely charging on slightly cleaner electrons.
+
+The broader point is that the environmental case for an EV in Colorado is real but not unconditional. You are not driving a zero-emission vehicle in any complete sense on the current Front Range grid. You're driving a vehicle with a significantly smaller CO2 footprint than a gas SUV, one that will keep improving as Xcel's grid cleans up without you changing anything about how you drive.
+
+> If Xcel hits its 2030 target of 80% carbon reduction from 2005 levels, the same 3,864 kWh of charging would produce roughly **600 lbs of CO2** instead of 2,164 — a reduction of over 70% in charging emissions with no change to the car or driving habits.
+
 ## Tips for Colorado EV Owners
 
 Based on 17 months and 153 sessions across both networks:
@@ -274,6 +300,7 @@ Based on 17 months and 153 sessions across both networks:
 - **On EA: watch the charging rate for the first two minutes.** If a DCFC session starts under 20 kW, unplug immediately and try another stall or another network. The throttling issue on certain EA stations does not self-correct.
 - **Check Boulder County free stations before paying.** If you're running errands in Longmont, the Boulder County and Village at the Peaks free L2 stations are real, working, and cost nothing. Not a strategy, but a useful supplement.
 - **DC fast charging is a convenience premium, not a savings tool.** At $0.52–0.54/kWh, you're paying 3.8–4× home rate. Worth it when you need it. Not worth it as a default.
+- **Charge during off-peak hours when you can.** Colorado's overnight grid carries more wind generation and lower demand than peak afternoon hours. If you have a home charger with a timer, setting it to start after 10 PM has a small but real effect on the carbon intensity of your charging. At public L2 stations with no timer control, this is less actionable — but it's worth knowing the grid isn't flat.
 - **Colorado altitude affects real-world range.** EPA figures are tested at sea level. On I-70 grades or in cold mountain weather, plan for meaningfully less range than the displayed estimate. Don't push DC fast charging margins in the mountains.
 
 ## Bottom Line
@@ -285,5 +312,7 @@ ChargePoint delivered 127 sessions with zero network-level failures. Every sessi
 EA delivered faster peak speeds when everything aligned, and it also handed me a 70-minute throttled session at a 150 kW pedestal, four consecutive aborted sessions in eight minutes at the same station, and six billed charges that delivered essentially nothing. The good sessions are genuinely fast. The bad ones are genuinely bad, and you won't know which you're getting until you're already there.
 
 If you're considering an EV in Colorado and you have reliable access to home or workplace L2 charging, the economics work. If you're relying primarily on public DC fast charging, run the cost-per-mile math against a hybrid before you commit. At $0.52–0.54/kWh on a network that isn't always consistent, the financial case gets thin.
+
+On the carbon side: the Front Range grid isn't clean by any absolute measure, but 17 months of driving on it produced an estimated 6,900 fewer pounds of CO2 than the equivalent miles in a gas SUV would have. That gap will keep widening as Xcel's grid continues to decarbonize.
 
 More EV coverage on this blog: if you're just getting started with EV ownership and want the broader picture on charging types, infrastructure, and what to expect, check out [Electric Car Things: A Guide]({% post_url 2024-11-10-Electric-Car-Things %}).
