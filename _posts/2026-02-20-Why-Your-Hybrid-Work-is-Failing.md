@@ -1,6 +1,6 @@
 ---
 title: Why Your Hybrid Work is Failing
-date: 2026-02-20 08:00:00 -0600
+date: 2026-04-10 08:00:00 -0600
 categories:
   - Thoughts
 tags:
