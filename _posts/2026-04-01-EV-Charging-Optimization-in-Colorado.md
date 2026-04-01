@@ -19,6 +19,8 @@ I pulled 17 months of ChargePoint and Electrify America session history and ran 
 
 This isn't a theoretical comparison. The ChargePoint data covers October 2024 through March 2026 an amazing 127 sessions across five operators and a dozen locations in the Denver-Boulder-Fort Collins corridor. The Electrify America data runs October 2024 through January 2026, 26 sessions at five Colorado locations. Same car, same roads, 17 months of real receipts. Its also worth noting that I also have an Electrify America subscription, to try and unlock lower per kWh cost rates.
 
+> Both providers suffer from consistent logouts on Android, meaning you have  to sign back into your apps sometimes multiple times a month. And ChargePointly enjoys letting you know that terms of service have been updated. If they actually were updated, who knows? Do you have the time to check that when you are pulling up to charge? While Electrify America, whoooo! That app loves to log all the way out and fail to pass NFC at chargers sometimes. 
+
 Also worth calling out before we get into the numbers: this entire dataset is built on 100% public charging. No home charging at all during this window. Part of that was a deliberate choice to see what the public network could actually handle. Part of it is a practical reality that does not come up enough in EV reviews. The cable that comes with the Solterra from the dealership is a standard 120V Level 1 cord, and in my experience those cables are too short to be useful unless you can charge in a garage. If your home is not pre-wired for a 240V EV circuit and you do not have a garage setup, that factory cable is not going to cut it for daily driving. Getting a proper home Level 2 setup means either having a pre-wired garage or bringing in an electrician to run new service. Not everyone has that option. This whole experiment was built around what it looks like when you rely entirely on public infrastructure instead.
 
 **ChargePoint (Oct 2024–Mar 2026): 127 sessions. ~3,373 kWh paid + 22 kWh free. ~$1,899 spent.**
@@ -34,9 +36,9 @@ Also worth calling out before we get into the numbers: this entire dataset is bu
 | Electrify America | 26 | 490.95 | $263.25 | $0.54* | DC Fast |
 | Free public (Boulder County + VTP) | 5 | 22.17 | $0.00 | — | L2 |
 
-*EA TotalCost includes Colorado sales tax; ChargePoint costs are pre-tax. Stripping an estimated ~8% Colorado blended tax from EA brings the pre-tax rate to approximately $0.50/kWh — comparable to ChargePoint DC fast charging once you normalize.
+*EA TotalCost includes Colorado sales tax; ChargePoint costs are pre-tax. Stripping an estimated ~8% Colorado blended tax from EA brings the pre-tax rate to approximately $0.50/kWh, comparable to ChargePoint DC fast charging once you normalize.
 
-The L2 picture is clear: workplace charging is far cheaper per kWh than anything else on the list, and over 17 months it accounts for the overwhelming majority of total energy delivered. The DC fast chargers — both ChargePoint and EA — are converging on $0.50–0.57/kWh depending on how you account for tax, which means they're running more expensive per mile than a reasonably efficient gas vehicle. More on that in the cost-per-mile section.
+The L2 picture is clear: workplace charging is far cheaper per kWh than anything else on the list, and over 17 months it accounts for the overwhelming majority of total energy delivered. The DC fast chargers, both ChargePoint and EA, are converging on $0.50–0.57/kWh depending on how you account for tax, which means they're running more expensive per mile than a reasonably efficient gas vehicle. More on that in the cost-per-mile section.
 
 ## Cost by Network (All Paid Sessions)
 
@@ -61,11 +63,11 @@ pie title kWh Delivered by Network (Oct 2024–Mar 2026)
     "Other ChargePoint" : 12.34
 ```
 
-The cost pie makes one thing immediately obvious: UCAR/NCAR L2 charging dominates both spending and energy delivered. Everything else is rounding error by comparison. That's mostly a function of having access to workplace charging five days a week — if you don't have that, your pie looks very different.
+The cost pie makes one thing immediately obvious: UCAR/NCAR L2 charging dominates both spending and energy delivered. Everything else is rounding error by comparison. That's mostly a function of having access to workplace charging five days a week. If you don't have that, your pie looks very different.
 
 ## UCAR/NCAR ChargePoint: The Workhorse
 
-Over 17 months, 108 paid sessions at UCAR/NCAR ChargePoint stations in Boulder — primarily MESA LAB, with occasional use of FOOTHILLS LAB, CENTER GREEN, and the RAF station in Broomfield. These are Level 2 chargers delivering right around 5.8 kW on average, which is exactly what you'd expect from a 240V L2 station up against the Solterra's 6.6 kW onboard AC charger.
+Over 17 months, 108 paid sessions at UCAR/NCAR ChargePoint stations in Boulder, primarily MESA LAB, with occasional use of FOOTHILLS LAB, CENTER GREEN, and the RAF station in Broomfield. These are Level 2 chargers delivering right around 5.8 kW on average, which is exactly what you'd expect from a 240V L2 station up against the Solterra's 6.6 kW onboard AC charger.
 
 **108 sessions. 3,150.59 kWh. $1,794.88. $0.57/kWh average.**
 
@@ -78,13 +80,42 @@ The $0.57/kWh blended rate is the figure that needs context, because it doesn't 
 | Jul–Dec 2025 | 973.59 | $589.76 | $0.61 |
 | Jan–Mar 2026 | 482.54 | $229.78 | $0.48 |
 
-The late-2024 and early-2026 sessions average around $0.48–0.49/kWh. The middle of 2025 runs consistently at $0.60–0.61/kWh. This isn't a simple rate increase — the sessions themselves tell a partial story. Summer 2025 sessions are longer (regularly 7–8 hours, often delivering 44–48 kWh) and frequently appear to hit higher time-of-use pricing bands. Some individual sessions in that window hit $0.72–0.80/kWh effective rates. Whether the UCAR station operator changed their pricing tiers, whether these longer sessions are crossing into evening peak hours, or whether something changed in the ChargePoint rate structure for this network is something I haven't been able to definitively confirm — but the pattern is real and shows up consistently across multiple sessions in that window.
+The late-2024 and early-2026 sessions average around $0.48–0.49/kWh. The middle of 2025 runs consistently at $0.60–0.61/kWh. Once you look at actual session receipts instead of just the CSV totals, the reason becomes clear, and it is not a rate increase. It is a time overage fee. More on that in the next section.
 
-The sessions themselves are straightforward: park at work, plug in, come back 3–8 hours later, repeat. The longest single session in the full dataset was 8 hours 15 minutes for 44.1 kWh at $36.57 on June 3, 2025. That's a nearly full charge on a car that sat in a parking lot while I was in meetings.
+### The Session Fee Gotcha
 
-For context: City of Longmont Power runs around $0.1057/kWh at home, so even the cheapest UCAR sessions are running about 4.5x home rate. That sounds bad until you remember the time cost is zero. The charger works in the background; I do not.
+Here is where ChargePoint's billing gets tricky, and the CSV export makes it easy to miss completely.
 
-> If you have access to workplace L2 charging, use it. It is the highest-volume, lowest-hassle, and most cost-stable charging option available.
+The CSV gives you a single "Cost" number per session. It does not break out what portion was energy versus what portion was a time penalty. You have to pull the actual receipt to see the breakdown. When I did that, the rate variance mystery solved itself.
+
+UCAR/NCAR sets their ChargePoint pricing with two separate charges:
+
+- **Energy rate**: $0.25/kWh, charged for every kWh delivered
+- **Session time rate**: $0.00/min for the first 4 hours, then $0.10/min after the 4-hour mark
+
+The January 21, 2026 session is the clearest example. The CSV shows 6h 30m, 37.78 kWh, $24.44, which works out to $0.647/kWh and looks expensive. The actual receipt breakdown:
+
+| Charge | Rate | Amount |
+|---|---|---|
+| Energy (37.78 kWh) | $0.25/kWh | $9.44 |
+| Time: first 4 hours | $0.00/min | $0.00 |
+| Time overage: 2h 30m past the limit | $0.10/min | $15.00 |
+| **Total** | | **$24.44** |
+
+The energy cost was $9.44. The other $15.00 was a time penalty for staying past 4 hours. If I had unplugged at the 4-hour mark, that session would have cost $9.44 instead of $24.44.
+
+Not every station works this way. The Markley Motors DC station in Fort Collins (Price set by Markley Motors GM 206960) & IN-N-OUT / HARVESTMOON 04 (Price set by Zero6 Energy - 1) set their time rate at $0.00/min, no time penalty at all, just a flat $0.45/kWh (Markley) - $0.52/kWh IN-N-OOUT energy rate. You can stay as long as the session runs.
+
+ChargePoint lets each station operator configure the energy rate and time rate independently, and they do not surface the full rate structure clearly before you plug in. The blended $0.57/kWh I calculated for UCAR/NCAR across 108 sessions has all those time overage fees baked into the total. The actual UCAR energy rate is $0.25/kWh. The sessions that drove the blended average up are the ones where I overstayed and got hit with $0.10/min. The summer 2025 sessions with $0.72–0.80/kWh effective rates were long sessions, regularly 7–8 hours, that ran well past the 4-hour free window.
+
+> **Before starting any ChargePoint session, check the station details for both the energy rate AND the time rate.** If there is a time fee, note exactly when it kicks in and set a phone reminder to move your car before then. A 4-hour session at UCAR costs about $9.44 in energy. A 6.5-hour session at the same station costs $24.44. Same charger, same car, very different bill. 
+> The next gotcha is that ChargePoint is discontinuing the text message notification on changes to the cost rate. So if your phone's push notifications are not on or ChargePoint has an issue sending you the alert. You can spend a decent amount just for parking there. 
+
+The sessions are otherwise simple: park at work, plug in, move the car before the 4-hour cutoff if you want to avoid the penalty. The longest session in the dataset ran 8 hours 15 minutes for 44.1 kWh at $36.57. A significant portion of that bill was time fee, not energy.
+
+For context: City of Longmont Power runs around $0.1057/kWh at home. The UCAR energy rate of $0.25/kWh is about 2.4x home rate, which is actually reasonable for a public L2 station. The time fee is the part worth managing.
+
+> If you have access to workplace L2 charging, use it. Just know the time rules and set a reminder if the station charges by the minute after a cutoff.
 
 ## Zero6 Energy / In-N-Out Longmont: The DC Fast Charger Reality
 
@@ -103,13 +134,13 @@ Session-level data:
 | 3/16/2026 | 56m 47s | 47.672 | $24.79 | 50.4 kW |
 | 3/21/2026 | 26m 43s | 34.737 | $18.06 | 78.0 kW |
 
-That March 21st session stands out — 34.7 kWh in 26 minutes at an implied average of 78 kW. The Solterra's DC fast charge ceiling is 100 kW. The most likely explanation for the apparent high average is that the car accepted a higher initial charge rate at low state of charge, then tapered down as the battery filled and warmed up. The 78 kW figure is an average across 26 minutes; the peak was almost certainly higher at the start and dropped from there.
+That March 21st session stands out: 34.7 kWh in 26 minutes at an implied average of 78 kW. The Solterra's DC fast charge ceiling is 100 kW. The most likely explanation for the apparent high average is that the car accepted a higher initial charge rate at low state of charge, then tapered down as the battery filled and warmed up. The 78 kW figure is an average across 26 minutes; the peak was almost certainly higher at the start and dropped from there.
 
 At $0.52/kWh, these sessions cost 9% less than EA and are considerably more predictable. Every session completed, no aborts, no throttling events. The trade-off versus L2 is straightforward: these sessions cost about $0.04–0.09/kWh more than the UCAR L2 sessions but deliver in 25–57 minutes instead of 3–8 hours. When the route requires it, the math is obvious.
 
 ## Electrify America: More Data, More Variance
 
-The EA dataset covers 26 sessions from October 2024 through January 2026 — a 15-month window across five Colorado locations. The headline numbers look similar to ChargePoint DC fast charging at first glance: 491 kWh delivered, $263.25 spent, $0.54/kWh average. But the averages don't tell the real story here. The variance does.
+The EA dataset covers 26 sessions from October 2024 through January 2026, covering a 15-month window across five Colorado locations. The headline numbers look similar to ChargePoint DC fast charging at first glance: 491 kWh delivered, $263.25 spent, $0.54/kWh average. But the averages don't tell the real story here. The variance does.
 
 ### Sessions by Location
 
@@ -121,7 +152,7 @@ The EA dataset covers 26 sessions from October 2024 through January 2026 — a 1
 | BOA COW-066 | Highlands Ranch | 1 | 19.14 | $8.42 | 94 kW |
 | King Soopers | Erie | 1 | 21.73 | $11.18 | 89 kW |
 
-Longmont Walmart is the workhorse — 20 of 26 sessions, which reflects proximity to home and commute routes more than any strong preference for that station.
+Longmont Walmart is the workhorse with 20 of 26 sessions, which reflects proximity to home and commute routes more than any strong preference for that station.
 
 ### EA Cost Breakdown (Oct 2024–Jan 2026)
 
@@ -157,13 +188,13 @@ For reference, here are some notable sessions showing that spread:
 | 2025-07-18 | Walmart Longmont | 79 kW | 19.94 | 16m 30s | Good session |
 | 2025-06-30 | Walmart Longmont | 93 kW | 24.86 | 16m 53s | Good session |
 | 2025-05-03 | Westminster City Center | 94 kW | 37.77 | 29m 7s | Best single session |
-| 2025-12-31 | Walmart Longmont | 45 kW | 32.19 | 55m 39s | Moderate — car or station issue |
+| 2025-12-31 | Walmart Longmont | 45 kW | 32.19 | 55m 39s | Moderate, car or station issue |
 | 2026-01-31 | Walmart Longmont | 49 kW | 41.25 | 1h 15m 45s | Slow for the energy delivered |
-| 2025-03-29 | Simon Denver (Thornton) | 32 kW | 24.51 | 1h 10m 20s | Throttled — see below |
+| 2025-03-29 | Simon Denver (Thornton) | 32 kW | 24.51 | 1h 10m 20s | Throttled, see below |
 
-The difference between a 94 kW session and a 32 kW session isn't just speed — it's 45 minutes of your life. You plug in expecting a 20-minute top-up and end up sitting there for over an hour.
+The difference between a 94 kW session and a 32 kW session isn't just speed. It is 45 minutes of your life. You plug in expecting a 20-minute top-up and end up sitting there for over an hour.
 
-### The Throttling Incident: March 29, 2025 — Simon Denver (Thornton)
+### The Throttling Incident: March 29, 2025, Simon Denver (Thornton)
 
 This is the EA/Solterra compatibility bug documented in real numbers, not forum speculation.
 
@@ -173,9 +204,9 @@ At the Solterra's normal 50–100 kW acceptance rate, that same 24.51 kWh would 
 
 This is not a fluke or a bad cable. It's a known compatibility issue between how certain EA station firmware negotiates the charging session and the Solterra's charging protocol. The session starts, the car and charger handshake, and somewhere in that negotiation the power delivery gets capped far below what either the car or the charger is capable of. Subaru has been aware of this. The fix has been slow to arrive.
 
-> **The practical lesson:** any time you plug into an EA station with a Solterra, watch the charging rate on your dash for the first two minutes. If it's showing under 20 kW on a DCFC pedestal, unplug and try a different stall — or leave and find another network. Do not assume the session will speed up. In my experience, if it starts slow, it stays slow.
+> **The practical lesson:** any time you plug into an EA station with a Solterra, watch the charging rate on your dash for the first two minutes. If it's showing under 20 kW on a DCFC pedestal, unplug and try a different stall, or leave and find another network. Do not assume the session will speed up. In my experience, if it starts slow, it stays slow.
 
-### The Charger-Hopping Incident: May 17, 2025 — Walmart Longmont
+### The Charger-Hopping Incident: May 17, 2025, Walmart Longmont
 
 This one is its own category of frustrating. On May 17, 2025, I pulled into the Walmart Longmont EA station and tried four separate pedestals in the span of about eight minutes. All four sessions aborted within 1–2 minutes of starting.
 
@@ -188,11 +219,11 @@ This one is its own category of frustrating. On May 17, 2025, I pulled into the 
 
 **Total: $2.97 charged. ~5.86 kWh delivered. No usable charge. I drove away and found a ChargePoint station.**
 
-What makes this especially aggravating is the MaxChargingRate data. All four pedestals reported 86–90 kW of initial rate — so the hardware was communicating. Something in the session initialization was causing each one to terminate almost immediately. Whether it was a station-side firmware issue, a network outage affecting the payment authorization, or something in the car's state at that moment, I have no definitive answer. What I do know is that EA billed me for all four attempts. And when you have to have an active method on any EV Charger provider's network. this can get especially annoying as this will eat up your finances.
+What makes this especially aggravating is the MaxChargingRate data. All four pedestals reported 86–90 kW of initial rate, so the hardware was communicating. Something in the session initialization was causing each one to terminate almost immediately. Whether it was a station-side firmware issue, a network outage affecting the payment authorization, or something in the car's state at that moment, I have no definitive answer. What I do know is that EA billed me for all four attempts. And when you have to have an active method on any EV Charger provider's network. this can get especially annoying as this will eat up your finances.
 
 ### The Aborted Session Tax
 
-Across all 26 EA sessions, **6 were effectively aborted** — delivering under 2 kWh and terminating in under 5 minutes. This includes the May 17 incident plus two additional single-session failures on July 10 and July 18, 2025.
+Across all 26 EA sessions, **6 were effectively aborted**, delivering under 2 kWh and terminating in under 5 minutes. This includes the May 17 incident plus two additional single-session failures on July 10 and July 18, 2025.
 
 Total cost for those 6 sessions: **$4.84** for **8.66 kWh** of energy that didn't meaningfully move the charge needle. That's not catastrophic in dollar terms, but it represents sessions where you showed up, plugged in, waited, got almost nothing, and had to figure out a plan B.
 
@@ -200,15 +231,15 @@ Total cost for those 6 sessions: **$4.84** for **8.66 kWh** of energy that didn'
 
 It's worth being balanced here, because the bad sessions are memorable and the good ones are easy to forget.
 
-The Westminster City Center session on May 3, 2025 — 37.77 kWh in 29 minutes at 94 kW — was as good as DC fast charging gets on a Solterra. For that trip being a late night trip and not to mention ambiant temp around 60F, that session was quite the positive and most fitting "ideal charging time" on an Electrify America charger.  The BOA Highlands Ranch (Electify America) session on July 5, 2025 — 19.14 kWh in 13 minutes at 94 kW — was almost absurdly fast, during which the car battery was very cooled down after a journey down the I-25 corridor and resting at a destination for 4+ hours. The King Soopers Erie session in April 2025 hit 89 kW and finished cleanly.
+The Westminster City Center session on May 3, 2025: 37.77 kWh in 29 minutes at 94 kW, was as good as DC fast charging gets on a Solterra. For that trip being a late night trip and not to mention ambiant temp around 60F, that session was quite the positive and most fitting "ideal charging time" on an Electrify America charger.  The BOA Highlands Ranch (Electify America) session on July 5, 2025 — 19.14 kWh in 13 minutes at 94 kW — was almost absurdly fast, during which the car battery was very cooled down after a journey down the I-25 corridor and resting at a destination for 4+ hours. The King Soopers Erie session in April 2025 hit 89 kW and finished cleanly.
 
 When EA works, it is fast and the network coverage is genuinely better than ChargePoint for highway travel. The stations I mentioned above had no drama, no throttling, no aborts. Plug in, charge, go.
 
-The problem is you don't know which experience you're going to get until you're already there. That uncertainty has a real cost — in time, in stress, and occasionally in dollars.
+The problem is you don't know which experience you're going to get until you're already there. That uncertainty has a real cost: in time, in stress, and occasionally in dollars.
 
-## Free Public Charging — The Bonus Layer
+## Free Public Charging: The Bonus Layer
 
-> Boulder County operates a small network of free public ChargePoint L2 stations at several Longmont locations. Over the same 17-month window, I picked up 5 free sessions totaling **22.17 kWh at $0.00**. That's roughly $12 in avoided charging cost at UCAR rates, or about $15 at Zero6 rates — not life-changing, but worth knowing about.
+> Boulder County operates a small network of free public ChargePoint L2 stations at several Longmont locations. Over the same 17-month window, I picked up 5 free sessions totaling **22.17 kWh at $0.00**. That's roughly $12 in avoided charging cost at UCAR rates, or about $15 at Zero6 rates, not life-changing, but worth knowing about.
 >
 > The Village at the Peaks shopping center in Longmont also has free L2 stations. If you're already planning to park somewhere for 30–60 minutes, plugging in costs nothing and adds a few kWh of range. Free charging won't replace a dedicated charging strategy, but it's a useful supplemental option for local errands.
 
@@ -238,7 +269,7 @@ The takeaway is direct: **home charging wins**. Running this experiment and rely
 Based on 17 months and 153 sessions across both networks:
 
 - **Workplace L2 is the highest-leverage charging you can get.** The kWh/hour is low, but the time cost is zero. If your employer has ChargePoint stations, treat them as your primary charging source.
-- **Watch for UCAR rate variance.** Sessions in the $0.60–0.72/kWh range showed up consistently in summer 2025. Check your session receipt before you leave — rates at the same station can vary meaningfully depending on time of day or billing tier.
+- **Set a timer at UCAR stations.** The energy rate is $0.25/kWh but after 4 hours the station starts charging $0.10/min on top of that. A 6.5-hour session that should cost $9 in energy ends up at $24 once the time fee kicks in. Unplug before the 4-hour mark or move and restart a new session.
 - **Zero6 Energy DC chargers in Longmont are reliable.** Six sessions, no aborts, no throttling. The hardware pushes past 50 kW and the Solterra accepts it well at low state of charge. Budget 25–55 minutes depending on how much you need.
 - **On EA: watch the charging rate for the first two minutes.** If a DCFC session starts under 20 kW, unplug immediately and try another stall or another network. The throttling issue on certain EA stations does not self-correct.
 - **Check Boulder County free stations before paying.** If you're running errands in Longmont, the Boulder County and Village at the Peaks free L2 stations are real, working, and cost nothing. Not a strategy, but a useful supplement.
@@ -251,8 +282,8 @@ Based on 17 months and 153 sessions across both networks:
 
 ChargePoint delivered 127 sessions with zero network-level failures. Every session that started completed, including the L2 sessions that ran 8+ hours. The rate variance at UCAR is worth monitoring, but the reliability is not in question.
 
-EA delivered faster peak speeds when everything aligned — and it also handed me a 70-minute throttled session at a 150 kW pedestal, four consecutive aborted sessions in eight minutes at the same station, and six billed charges that delivered essentially nothing. The good sessions are genuinely fast. The bad ones are genuinely bad, and you won't know which you're getting until you're already there.
+EA delivered faster peak speeds when everything aligned, and it also handed me a 70-minute throttled session at a 150 kW pedestal, four consecutive aborted sessions in eight minutes at the same station, and six billed charges that delivered essentially nothing. The good sessions are genuinely fast. The bad ones are genuinely bad, and you won't know which you're getting until you're already there.
 
 If you're considering an EV in Colorado and you have reliable access to home or workplace L2 charging, the economics work. If you're relying primarily on public DC fast charging, run the cost-per-mile math against a hybrid before you commit. At $0.52–0.54/kWh on a network that isn't always consistent, the financial case gets thin.
 
-More EV coverage on this blog: if you're just getting started with EV ownership and want the broader picture on charging types, infrastructure, and what to expect, check out [Electric Car Things — A Guide]({% post_url 2024-11-10-Electric-Car-Things %}).
+More EV coverage on this blog: if you're just getting started with EV ownership and want the broader picture on charging types, infrastructure, and what to expect, check out [Electric Car Things: A Guide]({% post_url 2024-11-10-Electric-Car-Things %}).
