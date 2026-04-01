@@ -17,9 +17,10 @@ description: "Hybrid work isn't failing because of remote employees — it's fai
 
 ### C-Suite
 
-When I speak of C-suite personnel, I'm talking about ones who traditionally get the C titles. These titled people often will be the "face" of the company in large meetings both internally and externally.  These roles are usually are part of the biggest problems in organizations. They are ones that make it difficult to trust. In this context, trust is a hard thing to define. In the havard buieness review
+When I speak of C-suite personnel, I'm talking about ones who traditionally get the C titles. These titled people often will be the "face" of the company in large meetings both internally and externally.  These roles are usually are part of the biggest problems in organizations. They are ones that make it difficult to trust. In this context, trust is a hard thing to define. In the Harvard Business Review
 
 ### Directors
 ### Middle Managers
 
 ### Workers—the ones actually doing the hard work
+These workers are where everything falls apart. they get the most criticism and frequently the most backlash the fastest. When you hear of burn out this is ground zero for it. 
