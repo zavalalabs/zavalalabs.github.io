@@ -1,8 +1,8 @@
 ---
 title: Why Your Hybrid Work is Failing
-date: 2026-04-10 08:00:00 -0600
+date: 2026-02-20 08:00:00 -0700
 categories:
-  - Thoughts
+  - Workplace
 tags:
   - career
   - management
@@ -11,7 +11,7 @@ tags:
 description: "Hybrid work isn't failing because of remote employees — it's failing because organizations lost focus on people and optimized for optics instead. An honest breakdown."
 ---
 
-## “The Boardroom” & “The Trustees”
+I have watched this happen enough times to know the pattern. An organization adopts hybrid work, either by choice or by necessity, and within eighteen months the dysfunction is visible at every layer. Morale is down. Attrition is up. Executives are confused about why their workforce is disengaged, and they are looking everywhere for an explanation except the mirror. This post is not a roundup of hybrid work tips. It is a diagnosis. The failure is not random — it cascades down the org chart, starting at the top and picking up momentum at every level until it lands, hard, on the people doing the actual work. Here is how that happens.
 
 ## C-Suite
 
@@ -19,7 +19,7 @@ When I speak of C-suite personnel, I'm talking about the people who hold the tra
 
 In the early days of COVID-era remote work, a lot of C-suites were quietly enthusiastic about it — not because they believed in flexibility for employees, but because the cost savings were real. Less commercial real estate, lower overhead, fewer facilities expenses. Remote work was a CFO's dream dressed up as a people-first policy. Then something shifted. As return-to-office pressure built — from commercial real estate investors, from boards, from executives who were just plain uncomfortable not being able to see their workforce — the same C-suites that had embraced remote work started mandating people back. And they did it with a logic that doesn't hold up to five seconds of scrutiny.
 
-The argument usually sounds something like: “If I can make it in five days a week, so can you.” I have heard versions of this line from executives in multiple industries. What makes it insulting is not the expectation — it is the assumption underneath it. An executive who says this is typically driving in from a house they own, in a car with lane-assist or a car service billed to the company, with a schedule that bends around their life rather than the other way around. They are not arranging childcare at 7 a.m. They are not staring down a 45-minute commute each way on a salary that makes that commute genuinely expensive. The comparison is not apples to apples. It is a private jet to a bus.
+The argument usually sounds something like: "If I can make it in five days a week, so can you." I have heard versions of this line from executives in multiple industries. What makes it insulting is not the expectation — it is the assumption underneath it. An executive who says this is typically driving in from a house they own, in a car with lane-assist or a car service billed to the company, with a schedule that bends around their life rather than the other way around. They are not arranging childcare at 7 a.m. They are not staring down a 45-minute commute each way on a salary that makes that commute genuinely expensive. The comparison is not apples to apples. It is a private jet to a bus.
 
 The more egregious version — and this actually happened, publicly, during the 2022 and 2023 RTO waves — is the executive who demanded employees return to the office while personally working from a vacation home, a lake house, or in at least a few documented cases, a boat. A number of high-profile leaders who were vocal about the value of in-person work were themselves logging in from Aspen or the Hamptons while their employees were tracking down parking and paying for gas. That is not a leadership position. That is a class position dressed up as one. The rule applies to everyone except the people making it.
 
@@ -55,12 +55,26 @@ The deeper issue is that most middle managers were never trained to manage in th
 
 The result is a layer of managers who are burned out, under-supported, politically exposed, and increasingly disengaged — managing teams of workers who can sense all of that and are drawing their own conclusions about what it means for their future at the company.
 
-## Workers—the ones actually doing the hard work
-These workers are where everything falls apart. they get the most criticism and frequently the most backlash the fastest. When you hear of burn out this is ground zero for it. Especially when it hits with the types of high performers that are expected at these levels before they get put into the tough spot of bieng middle managers. These high performers, like  called out in the[(tiktok  by Craig Willard](https://www.tiktok.com/@craigwillard/video/7622733476852256031?_r=1&_t=ZT-95AV3pqvpj3) are often teh one being pulled in a million directions becase they are being asked questions, being interupted by these chats, questions, dropbys.  THis will make high performers not want to perfomr anymore. How often can you make a high performance engine run high RPMS and constanly switching hears and expect it to never run out. 
+## Workers
 
-How these workers are expected to show up day after day and time after time, constantly getting the living tar beat out of them?  The asnwer is shockingly easy. They eventually stop showing up and there isnt much anyone can do about it. becase once they leave they are gone and most organizations will hardly seem them comback anytime soon. 
-Do managers really expect them to come back each time they leave? Is that somethign that is always doable, no its not. 
-when you look at these workers they are often the one that have the difficult time in doing work. They offten will suffer from burnout, stress, and a lack of motivation due to the constant pressure and interruptions they face. this by definitiion is the loss of psychological safety.
+Workers are where the cascade bottoms out, and the landing is not gentle.
 
-> [psychological safety is the belief that one will not be punished or humiliated for speaking up with ideas, questions, concerns, or mistakes. - Dr. Amy Edmondson](https://journals.sagepub.com/doi/10.2307/2666999)
-<!-- TODO: Citation note — the link above points to the original 1999 paper "Psychological Safety and Learning Behavior in Work Teams," published in Administrative Science Quarterly (not Harvard Business Review). The quote and attribution to Dr. Amy Edmondson are accurate. If you prefer to link to a more accessible source, consider the 2019 HBR podcast/article (https://hbr.org/podcast/2019/01/creating-psychological-safety-in-the-workplace) or the Harvard DASH repository version of the paper (https://dash.harvard.edu/entities/publication/13a7b031-0fdd-45ec-a7e0-2b80e2bc679f). -->
+By the time organizational dysfunction reaches this level, it has been compressed and accelerated through every layer above it. What started as a tone-deaf executive mandate has been laundered through Directors and middle managers, each of whom added their own layer of stress and subtracted another layer of protection. Workers receive the output of that process — vague policy, inconsistent enforcement, and managers who are themselves running on empty.
+
+Hybrid work has positioned workers in a genuinely untenable place: they carry the expectations of in-office presence without the infrastructure that once supported it, and they carry the expectations of remote flexibility without the autonomy that makes remote work function. The result is not the best of both worlds. It is the worst of both, delivered simultaneously. They are expected to be reachable on Slack while sitting in an open office, available for drop-by questions while on a video call, responsive to asynchronous messages while attending a synchronous meeting about why asynchronous communication is not working.
+
+The high performers feel this first and most acutely. They are the ones being pulled in every direction because they are the ones with the answers — the go-to people for questions, the ones whose work is visible enough to invite constant interruption. Craig Willard documented this dynamic [in a widely shared post](https://www.tiktok.com/@craigwillard/video/7622733476852256031?_r=1&_t=ZT-95AV3pqvpj3): high performers in hybrid environments are not struggling because they lack capability, they are struggling because they cannot protect enough contiguous time to use it. Context switching at this frequency is not a productivity inconvenience. It is a structural tax on the people an organization can least afford to lose. A high-performance engine can sustain high RPMs. What it cannot sustain is being forced to shift gears every four minutes indefinitely. Eventually the engine does not fail — it simply stops running hard, because running hard stopped being worth it.
+
+What erodes under these conditions is not just output. It is psychological safety — the belief, as Dr. Amy Edmondson defines it in her foundational 1999 research, that one will not be punished or humiliated for speaking up with ideas, questions, concerns, or mistakes.[^1] When workers watch high-visibility peers burn out, get quietly managed out, or simply leave without explanation, the signal is loud and clear: this is not a safe place to bring your full effort. So they stop. Not dramatically. Just gradually. They do what is required and nothing more, and the organization calls that disengagement without ever examining what it did to produce it.
+
+The honest version of this is simple: workers eventually stop showing up — not necessarily physically, but in every way that matters. And once that happens, most organizations have already lost them. The ones who leave take institutional knowledge, client relationships, and whatever was left of team morale with them. The ones who stay often become the cautionary example that teaches their peers what not to do.
+
+[^1]: Edmondson, A. C. (1999). Psychological safety and learning behavior in work teams. *Administrative Science Quarterly, 44*(2), 350–383. [https://journals.sagepub.com/doi/10.2307/2666999](https://journals.sagepub.com/doi/10.2307/2666999)
+
+## The Bottom Line
+
+The problem with diagnosing a cascade failure is that every layer can accurately point to the layer above it. Workers blame managers. Managers blame Directors. Directors blame the C-suite. The C-suite blames the board, the market, the remote work experiment, or the workers themselves. Everyone is right about the layer above them and conveniently blind to their own contribution.
+
+That is what makes this so difficult to fix — not the policy, not the technology, not the floor plan. The difficulty is that fixing it requires people at the top to absorb accountability rather than distribute it downward, and most organizations are not structured to reward that behavior. The executives who are most responsible for the dysfunction are also the most insulated from its consequences. They do not sit in the open office getting interrupted. They do not field the question about why in-office attendance is being tracked but performance reviews are not. They do not manage the conversation with the employee who got a competing offer and is only half-heartedly open to a counteroffer.
+
+The organizations that will actually improve their hybrid work outcomes are not the ones that find a better attendance policy or a smarter collaboration tool. They are the ones where someone with real authority decides that the gap between what leadership says and what leadership does is a business risk worth taking seriously. That is a small number of organizations. Most will keep rearranging the framework, watching their best people leave, and wondering why nothing sticks. The cascade does not reverse itself. Someone has to stop it.
