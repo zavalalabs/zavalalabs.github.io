@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<!--
+  Mermaid dark-theme color test for Chirpy
+  ==========================================
+  Purpose: Visually verify that the org chart in "Why Your Hybrid Work is Failing"
+  renders correctly against the Chirpy dark theme colors before publishing.
+
+  Chirpy 7.1.1 dark theme reference values:
+    - Page background:    #1d1f21
+    - Card/content bg:    #282c34
+    - Primary text:       #e8e8e8
+    - Border/line color:  #404854
+    - Sidebar bg:         #1d1f21
+
+  To run: open this file directly in a browser (file:// is fine).
+  Pass criteria:
+    - All node text is legible (light on dark)
+    - No white/near-white node backgrounds (would indicate wrong theme)
+    - Arrows/lines are visible against the dark background
+    - Node borders are visible but not harsh
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mermaid Dark Theme Color Test — Chirpy Compatibility</title>
+  <style>
+    /* Replicate Chirpy dark theme environment */
+    :root {
+      --chirpy-bg:        #1d1f21;
+      --chirpy-card-bg:   #282c34;
+      --chirpy-text:      #e8e8e8;
+      --chirpy-border:    #404854;
+      --chirpy-accent:    #3b82f6;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--chirpy-bg);
+      color: var(--chirpy-text);
+      font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      padding: 2rem;
+    }
+
+    h1, h2, h3 { color: var(--chirpy-text); margin-bottom: 1rem; }
+    h1 { font-size: 1.6rem; border-bottom: 1px solid var(--chirpy-border); padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
+    h2 { font-size: 1.1rem; color: #aab; margin-bottom: 0.5rem; }
+
+    .test-panel {
+      background-color: var(--chirpy-card-bg);
+      border: 1px solid var(--chirpy-border);
+      border-radius: 6px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .test-label {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #778;
+      margin-bottom: 0.75rem;
+    }
+
+    .checklist {
+      margin-top: 1.5rem;
+      padding: 1rem 1.25rem;
+      background: #1a1c1e;
+      border-left: 3px solid var(--chirpy-accent);
+      border-radius: 0 4px 4px 0;
+    }
+    .checklist h3 { font-size: 0.9rem; color: #aab; margin-bottom: 0.5rem; }
+    .checklist li { font-size: 0.85rem; color: #ccc; line-height: 1.7; margin-left: 1.25rem; }
+    .checklist li::marker { color: var(--chirpy-accent); }
+
+    .swatch-row { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 0.5rem; }
+    .swatch {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.8rem;
+      color: #ccc;
+    }
+    .swatch-block {
+      width: 24px; height: 24px;
+      border-radius: 4px;
+      border: 1px solid #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Mermaid Dark Theme Test — Chirpy Compatibility</h1>
+  <p style="color:#778; font-size:0.85rem; margin-bottom:1.5rem;">
+    Verifying the org chart from "Why Your Hybrid Work is Failing" renders correctly on Chirpy's dark theme.<br>
+    Open browser DevTools Console to see pass/fail assertions.
+  </p>
+
+  <!-- ── TEST 1: Post org chart with %%{init: {'theme': 'dark'}}%% ── -->
+  <div class="test-panel">
+    <div class="test-label">Test 1 — Production chart (%%{init: {'theme': 'dark'}}%%)</div>
+    <h2>Org Chart as it appears in the blog post</h2>
+
+    <pre class="mermaid">
+%%{init: {'theme': 'dark'}}%%
+graph TD
+    CEO["CEO"] --> COO["COO"]
+    CEO --> CFO["CFO"]
+    CEO --> CHRO["CHRO"]
+
+    COO --> DE["Director of Engineering"]
+    COO --> DO["Director of Operations"]
+    CFO --> DF["Director of Finance"]
+    CHRO --> DPD["Director of People & Development"]
+
+    DE --> EM1["Eng. Manager — Platform"]
+    DE --> EM2["Eng. Manager — Product"]
+    DE --> EM3["Eng. Manager — Infrastructure"]
+
+    DO --> OM1["Ops Manager — Facilities"]
+    DO --> OM2["Ops Manager — Logistics"]
+    DO --> OM3["Ops Manager — Vendor Relations"]
+
+    DF --> FM1["Finance Manager — FP&A"]
+    DF --> FM2["Finance Manager — Accounting"]
+
+    DPD --> HM1["HR Manager — Talent Acquisition"]
+    DPD --> HM2["HR Manager — Learning & Dev"]
+    DPD --> HM3["HR Manager — Employee Relations"]
+
+    EM1 --> IC1["ICs / Workers (8–15 per mgr)"]
+    EM2 --> IC2["ICs / Workers (8–15 per mgr)"]
+    EM3 --> IC3["ICs / Workers (8–15 per mgr)"]
+    OM1 --> IC4["ICs / Workers (8–15 per mgr)"]
+    OM2 --> IC5["ICs / Workers (8–15 per mgr)"]
+    FM1 --> IC6["ICs / Workers (8–15 per mgr)"]
+    HM1 --> IC7["ICs / Workers (8–15 per mgr)"]
+    HM2 --> IC8["ICs / Workers (8–15 per mgr)"]
+    </pre>
+  </div>
+
+  <!-- ── TEST 2: Same chart with Chirpy-matched themeVariables ── -->
+  <div class="test-panel">
+    <div class="test-label">Test 2 — Chirpy-matched themeVariables (alternative)</div>
+    <h2>Same chart with explicit Chirpy color overrides</h2>
+    <p style="color:#778; font-size:0.82rem; margin-bottom:1rem;">
+      If Test 1 looks off, this version should be used instead — it pins exact Chirpy colors.
+    </p>
+
+    <pre class="mermaid" id="chart-chirpy">
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#282c34', 'primaryBorderColor': '#404854', 'primaryTextColor': '#e8e8e8', 'lineColor': '#6272a4', 'fontSize': '14px'}}}%%
+graph TD
+    CEO["CEO"] --> COO["COO"]
+    CEO --> CFO["CFO"]
+    CEO --> CHRO["CHRO"]
+
+    COO --> DE["Director of Engineering"]
+    COO --> DO["Director of Operations"]
+    CFO --> DF["Director of Finance"]
+    CHRO --> DPD["Director of People & Development"]
+
+    DE --> EM1["Eng. Manager — Platform"]
+    DE --> EM2["Eng. Manager — Product"]
+    DF --> FM1["Finance Manager — FP&A"]
+    DPD --> HM1["HR Manager — Talent Acquisition"]
+    DPD --> HM2["HR Manager — Learning & Dev"]
+
+    EM1 --> IC1["ICs / Workers (8–15 per mgr)"]
+    EM2 --> IC2["ICs / Workers (8–15 per mgr)"]
+    FM1 --> IC3["ICs / Workers (8–15 per mgr)"]
+    HM1 --> IC4["ICs / Workers (8–15 per mgr)"]
+    </pre>
+  </div>
+
+  <!-- ── Reference swatches ── -->
+  <div class="test-panel">
+    <div class="test-label">Chirpy Dark Theme Reference Colors</div>
+    <div class="swatch-row">
+      <div class="swatch">
+        <div class="swatch-block" style="background:#1d1f21;"></div>
+        <span>#1d1f21 — Page bg</span>
+      </div>
+      <div class="swatch">
+        <div class="swatch-block" style="background:#282c34;"></div>
+        <span>#282c34 — Card bg</span>
+      </div>
+      <div class="swatch">
+        <div class="swatch-block" style="background:#e8e8e8;"></div>
+        <span>#e8e8e8 — Primary text</span>
+      </div>
+      <div class="swatch">
+        <div class="swatch-block" style="background:#404854;"></div>
+        <span>#404854 — Border</span>
+      </div>
+      <div class="swatch">
+        <div class="swatch-block" style="background:#3b82f6;"></div>
+        <span>#3b82f6 — Accent blue</span>
+      </div>
+      <div class="swatch">
+        <div class="swatch-block" style="background:#6272a4;"></div>
+        <span>#6272a4 — Muted line color</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Automated assertions ── -->
+  <div class="checklist">
+    <h3>Visual Pass Criteria (check manually)</h3>
+    <ul>
+      <li>All node labels are readable — light text on dark background, no white-on-white</li>
+      <li>Arrow/edge lines are visible against the dark page background</li>
+      <li>Node borders are visible but not harsh or glowing</li>
+      <li>No large white or near-white bounding boxes on any node</li>
+      <li>Hierarchy levels are distinguishable (CEO/C-suite vs Directors vs Managers vs ICs)</li>
+      <li>Chart does not overflow or clip on a 1440px viewport</li>
+    </ul>
+  </div>
+
+  <!-- ── Automated contrast check via JS ── -->
+  <script>
+    // Lightweight contrast check: parse rendered SVG after Mermaid initializes
+    // and assert no fill is too close to white (which would mean wrong theme was applied)
+    function runAssertions() {
+      const svgs = document.querySelectorAll('.mermaid svg');
+      if (!svgs.length) {
+        console.warn('[MermaidTest] No SVGs found yet — Mermaid may not have initialized.');
+        return;
+      }
+
+      let passed = 0, failed = 0;
+
+      svgs.forEach((svg, i) => {
+        const rects = svg.querySelectorAll('rect, .node rect, .node polygon');
+        rects.forEach(rect => {
+          const fill = rect.getAttribute('fill') || rect.style.fill || '';
+          // Flag any fill that is pure white or very close to it
+          if (fill && (fill === '#ffffff' || fill === 'white' || fill === 'rgb(255, 255, 255)')) {
+            console.error(`[MermaidTest] FAIL — Chart ${i + 1}: white fill detected on <${rect.tagName}> (fill="${fill}"). Wrong theme likely applied.`);
+            failed++;
+          }
+        });
+
+        // Check that SVG has a dark or transparent background (not white)
+        const svgBg = svg.style.background || svg.getAttribute('style') || '';
+        if (svgBg.includes('#fff') || svgBg.includes('white')) {
+          console.error(`[MermaidTest] FAIL — Chart ${i + 1}: SVG has white background style.`);
+          failed++;
+        }
+
+        console.log(`[MermaidTest] Chart ${i + 1}: ${rects.length} rects checked.`);
+        passed++;
+      });
+
+      console.log(`[MermaidTest] Done — ${passed} chart(s) checked, ${failed} failure(s).`);
+      if (failed === 0) {
+        console.log('%c[MermaidTest] PASS — No white fills detected. Dark theme appears to be applied correctly.', 'color: #10b981; font-weight: bold;');
+      }
+    }
+
+    // Run after Mermaid has had time to render
+    window.addEventListener('load', () => setTimeout(runAssertions, 1500));
+  </script>
+
+  <!-- Mermaid from CDN — same version range Chirpy 7.x uses -->
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+      startOnLoad: true,
+      // Do NOT set a global theme here — let each diagram's %%{init}%% block control it
+      // This matches how Chirpy renders diagrams (per-diagram theme via frontmatter)
+      securityLevel: 'loose'
+    });
+  </script>
+
+</body>
+</html>

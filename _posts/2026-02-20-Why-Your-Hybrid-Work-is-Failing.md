@@ -9,6 +9,7 @@ tags:
   - thoughts
   - in-progress
 description: "Hybrid work isn't failing because of remote employees — it's failing because organizations lost focus on people and optimized for optics instead. An honest breakdown."
+mermaid: true
 ---
 
 ## “The Boardroom” & “The Trustees”
@@ -30,6 +31,43 @@ Trust, in this context, is not complicated to define: it is the belief that the 
 In a larger organization — let's say around 1,200 employees — a Director is a real, load-bearing role. They are not individual contributors anymore, but they are also not setting strategy from a boardroom. They live in the middle of that gap. In practice, a Director typically oversees a span of somewhere between 25 and 100 people when you count the full organizational depth under them — not just the 3 to 6 managers who report directly to them, but everyone those managers are responsible for too. That is not a small thing to hold together.
 
 In smaller organizations, "Director" can mean almost anything. Sometimes it is a title handed to someone who is really just a team lead with a fancier business card and no meaningful increase in authority or pay. That is its own problem worth a separate post. But for this conversation, let's stay with the larger org where the title has real weight.
+
+```mermaid
+%%{init: {'theme': 'dark'}}%%
+graph TD
+    CEO["CEO"] --> COO["COO"]
+    CEO --> CFO["CFO"]
+    CEO --> CHRO["CHRO"]
+
+    COO --> DE["Director of Engineering"]
+    COO --> DO["Director of Operations"]
+    CFO --> DF["Director of Finance"]
+    CHRO --> DPD["Director of People & Development"]
+
+    DE --> EM1["Eng. Manager — Platform"]
+    DE --> EM2["Eng. Manager — Product"]
+    DE --> EM3["Eng. Manager — Infrastructure"]
+
+    DO --> OM1["Ops Manager — Facilities"]
+    DO --> OM2["Ops Manager — Logistics"]
+    DO --> OM3["Ops Manager — Vendor Relations"]
+
+    DF --> FM1["Finance Manager — FP&A"]
+    DF --> FM2["Finance Manager — Accounting"]
+
+    DPD --> HM1["HR Manager — Talent Acquisition"]
+    DPD --> HM2["HR Manager — Learning & Dev"]
+    DPD --> HM3["HR Manager — Employee Relations"]
+
+    EM1 --> IC1["ICs / Workers (8–15 per mgr)"]
+    EM2 --> IC2["ICs / Workers (8–15 per mgr)"]
+    EM3 --> IC3["ICs / Workers (8–15 per mgr)"]
+    OM1 --> IC4["ICs / Workers (8–15 per mgr)"]
+    OM2 --> IC5["ICs / Workers (8–15 per mgr)"]
+    FM1 --> IC6["ICs / Workers (8–15 per mgr)"]
+    HM1 --> IC7["ICs / Workers (8–15 per mgr)"]
+    HM2 --> IC8["ICs / Workers (8–15 per mgr)"]
+```
 
 The financial stakes at this level are significant. Gallup has consistently documented that replacing a single employee costs anywhere from 50% to 200% of that person's annual salary — and that range skews hard toward the top end the higher up the org chart you go. For a Director-level role, the realistic cost of turnover lands around 150% to 200% of their salary when you factor in the recruiting cycle, the ramp-up time for whoever fills the seat, and the institutional knowledge that walks out the door. In a 1,200-person organization, losing two or three Directors in a single year because of a poorly executed RTO mandate is not a people problem. It is a balance sheet problem that most C-suites never bother to calculate before they send the memo.
 
