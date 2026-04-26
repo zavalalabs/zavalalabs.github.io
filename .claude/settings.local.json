@@ -4,7 +4,10 @@
       "Bash(xargs grep:*)",
       "Bash(grep:*)",
       "Bash(bundle show:*)",
-      "Bash(ruby:*)"
+      "Bash(ruby:*)",
+      "WebSearch",
+      "WebFetch(domain:dash.harvard.edu)",
+      "WebFetch(domain:www.microsoft.com)"
     ]
   }
 }
