@@ -38,21 +38,32 @@
   }
   #zl-close:hover { opacity: 1; }
 
+  /* content wrapper — gives the SVG/img an explicit box to fill */
+  #zl-content {
+    width: min(92vw, 1400px);
+    max-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+  }
+
   /* the content (svg or img) inside the overlay */
   #zl-content svg,
   #zl-content img {
-    max-width: 92vw;
-    max-height: 90vh;
-    width: auto;
-    height: auto;
+    width: 100% !important;
+    height: auto !important;
+    max-height: 88vh !important;
     object-fit: contain;
     border-radius: 4px;
     pointer-events: none;
+    display: block;
   }
   #zl-content svg {
-    background: #1e1e2e; /* dark bg so transparent SVGs don't go white */
-    padding: .75rem 1rem;
+    background: #1e1e2e; /* dark bg so transparent SVGs don't show white */
+    padding: 1rem 1.5rem;
     border-radius: 6px;
+    box-sizing: border-box;
   }
 
   /* visual cue on zoomable elements */
@@ -103,9 +114,16 @@
     } else {
       /* SVG — deep-clone so the original stays in place */
       node = source.cloneNode(true);
+      /* strip Mermaid's inline size constraints, then fill the container */
       node.removeAttribute('width');
       node.removeAttribute('height');
       node.style.cssText = '';
+      node.style.width = '100%';
+      node.style.height = 'auto';
+      node.style.display = 'block';
+      /* ensure viewBox is preserved so the SVG scales proportionally */
+      var vb = source.getAttribute('viewBox');
+      if (vb) node.setAttribute('viewBox', vb);
     }
 
     content.appendChild(node);
