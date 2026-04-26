@@ -7,7 +7,6 @@ tags:
   - career
   - management
   - thoughts
-  - in-progress
 description: "Hybrid work isn't failing because of remote employees — it's failing because organizations lost focus on people and optimized for optics instead. An honest breakdown."
 mermaid: true
 ---
@@ -20,7 +19,9 @@ When I speak of C-suite personnel, I'm talking about the people who hold the tra
 
 In the early days of COVID-era remote work, a lot of C-suites were quietly enthusiastic about it — not because they believed in flexibility for employees, but because the cost savings were real. Less commercial real estate, lower overhead, fewer facilities expenses. Remote work was a CFO's dream dressed up as a people-first policy. Then something shifted. As return-to-office pressure built — from commercial real estate investors, from boards, from executives who were just plain uncomfortable not being able to see their workforce — the same C-suites that had embraced remote work started mandating people back. And they did it with a logic that doesn't hold up to five seconds of scrutiny.
 
-The argument usually sounds something like: "If I can make it in five days a week, so can you." I have heard versions of this line from executives in multiple industries. What makes it insulting is not the expectation — it is the assumption underneath it. An executive who says this is typically driving in from a house they own, in a car with lane-assist or a car service billed to the company, with a schedule that bends around their life rather than the other way around. They are not arranging childcare at 7 a.m. They are not staring down a 45-minute commute each way on a salary that makes that commute genuinely expensive. The comparison is not apples to apples. It is a private jet to a bus.
+The argument usually sounds something like: "If I can make it in five days a week, so can you." I have heard versions of this line from executives in multiple industries. What makes it insulting is not the expectation — it is the assumption underneath it. An executive who says this is typically driving in from a house they own, in a car with lane-assist or a car service billed to the company, with a schedule that bends around their life rather than the other way around. They are not arranging childcare at 7 a.m. They are not staring down a 45-minute commute each way on a salary that makes that commute genuinely expensive. The comparison is not apples to apples.
+
+It is a private jet to a bus.
 
 The more egregious version — and this actually happened, publicly, during the 2022 and 2023 RTO waves — is the executive who demanded employees return to the office while personally working from a vacation home, a lake house, or in at least a few documented cases, a boat. A number of high-profile leaders who were vocal about the value of in-person work were themselves logging in from Aspen or the Hamptons while their employees were tracking down parking and paying for gas. That is not a leadership position. That is a class position dressed up as one. The rule applies to everyone except the people making it.
 

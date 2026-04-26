@@ -1,6 +1,178 @@
 <!--
   Footer
 -->
+
+<!-- ═══════════════════════════════════════════════════════════════
+     Zoom overlay — click any Mermaid diagram or post image to expand
+     Works with Chirpy dark + light themes.
+     ═══════════════════════════════════════════════════════════════ -->
+<style>
+  /* overlay backdrop */
+  #zl-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    background: rgba(0, 0, 0, 0.88);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    cursor: zoom-out;
+    align-items: center;
+    justify-content: center;
+  }
+  #zl-overlay.zl-open { display: flex; }
+
+  /* close button */
+  #zl-close {
+    position: fixed;
+    top: 1rem;
+    right: 1.4rem;
+    color: #fff;
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+    user-select: none;
+    opacity: .55;
+    transition: opacity .15s;
+    z-index: 10000;
+  }
+  #zl-close:hover { opacity: 1; }
+
+  /* the content (svg or img) inside the overlay */
+  #zl-content svg,
+  #zl-content img {
+    max-width: 92vw;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    pointer-events: none;
+  }
+  #zl-content svg {
+    background: #1e1e2e; /* dark bg so transparent SVGs don't go white */
+    padding: .75rem 1rem;
+    border-radius: 6px;
+  }
+
+  /* visual cue on zoomable elements */
+  .zl-target {
+    cursor: zoom-in;
+    position: relative;
+  }
+  /* expand icon badge */
+  .zl-target::after {
+    content: '⤢';
+    position: absolute;
+    top: .45rem;
+    right: .65rem;
+    font-size: 1rem;
+    color: #fff;
+    opacity: 0;
+    background: rgba(0,0,0,.45);
+    border-radius: 4px;
+    padding: .05rem .25rem;
+    pointer-events: none;
+    transition: opacity .2s;
+  }
+  .zl-target:hover::after { opacity: 1; }
+</style>
+
+<!-- overlay DOM — single instance, reused for every zoom -->
+<div id="zl-overlay" role="dialog" aria-modal="true" aria-label="Expanded view">
+  <span id="zl-close" aria-label="Close">&times;</span>
+  <div id="zl-content"></div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var overlay = document.getElementById('zl-overlay');
+  var content = document.getElementById('zl-content');
+  var closeBtn = document.getElementById('zl-close');
+
+  /* ── open ── */
+  function openZoom(source) {
+    content.innerHTML = '';
+    var node;
+
+    if (source.tagName === 'IMG') {
+      node = document.createElement('img');
+      node.src = source.src;
+      node.alt = source.alt || '';
+    } else {
+      /* SVG — deep-clone so the original stays in place */
+      node = source.cloneNode(true);
+      node.removeAttribute('width');
+      node.removeAttribute('height');
+      node.style.cssText = '';
+    }
+
+    content.appendChild(node);
+    overlay.classList.add('zl-open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  /* ── close ── */
+  function closeZoom() {
+    overlay.classList.remove('zl-open');
+    content.innerHTML = '';
+    document.body.style.overflow = '';
+  }
+
+  overlay.addEventListener('click', function (e) {
+    if (e.target === overlay || e.target === closeBtn) closeZoom();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') closeZoom();
+  });
+
+  /* ── wire a single element ── */
+  function wire(el, getTarget) {
+    if (el.dataset.zlWired) return;
+    el.dataset.zlWired = '1';
+    el.classList.add('zl-target');
+    el.addEventListener('click', function () { openZoom(getTarget(el)); });
+  }
+
+  /* ── Mermaid diagrams — poll until Mermaid has finished rendering ── */
+  function wireMermaid() {
+    /* Chirpy renders mermaid blocks as <div class="mermaid"> or <pre class="mermaid"> */
+    document.querySelectorAll('.mermaid, pre.language-mermaid').forEach(function (wrapper) {
+      var svg = wrapper.querySelector('svg');
+      if (!svg) return;
+      wire(wrapper, function (w) { return w.querySelector('svg'); });
+    });
+  }
+
+  var _poll = 0;
+  function pollMermaid() {
+    wireMermaid();
+    /* stop after ~6 s whether or not SVGs appeared */
+    if (_poll++ < 20) setTimeout(pollMermaid, 300);
+  }
+
+  /* ── Post images (skip emoji, icons, and avatar) ── */
+  function wireImages() {
+    document.querySelectorAll(
+      '.post-content img:not(.emoji):not([data-zl-skip])'
+    ).forEach(function (img) {
+      wire(img, function (i) { return i; });
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function () {
+      wireImages();
+      pollMermaid();
+    });
+  } else {
+    wireImages();
+    pollMermaid();
+  }
+})();
+</script>
+
 <footer>
   <div class="container-lg d-flex justify-content-between align-items-center">
     <div class="footer-left">
