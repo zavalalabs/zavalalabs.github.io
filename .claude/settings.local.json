@@ -8,7 +8,9 @@
       "WebSearch",
       "WebFetch(domain:dash.harvard.edu)",
       "WebFetch(domain:www.microsoft.com)",
-      "WebFetch(domain:zavalatechconsulting.com)"
+      "WebFetch(domain:zavalatechconsulting.com)",
+      "Bash(curl:*)",
+      "Bash(nslookup:*)"
     ]
   }
 }
