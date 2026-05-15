@@ -1,5 +1,5 @@
 ---
-title: Thunderbolt: You May Be Doing it Wrong
+title: "Thunderbolt: You May Be Doing it Wrong"
 date: 2026-05-10 08:00:00 -0600
 categories:
   - IT
