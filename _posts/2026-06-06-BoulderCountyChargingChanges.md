@@ -1,6 +1,6 @@
 ---
-title: "Boulder County's Free EV Chargers Are Not Free Anymore"
-date: 2026-06-06 20:00:00 -0600
+title: Boulder County's Free EV Chargers Are Not Free Anymore
+date: 2026-06-06 15:00:00 -0600
 categories:
   - Cars
 tags:
@@ -11,7 +11,7 @@ tags:
   - colorado
   - soltera
   - longmont
-description: "Boulder County's public Level 2 ChargePoint stations in Longmont quietly switched from free to paid. Here is what the new pricing structure actually costs compared to what I was paying before."
+description: Boulder County's public Level 2 ChargePoint stations in Longmont quietly switched from free to paid. Here is what the new pricing structure actually costs compared to what I was paying before.
 ---
 
 I was at Longmont Pride today and pulled up to a Boulder County ChargePoint station to top off the Solterra. The app showed pricing I had not seen before. The Boulder County SV HUB Level 2 stations, which I had used for free multiple times in late 2024, now have an active rate structure. Not a dramatic number on its own, but a meaningful shift for anyone who relied on these stations as a cost-free charging stop during Longmont errands.
