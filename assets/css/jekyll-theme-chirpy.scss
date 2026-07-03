@@ -1,0 +1,414 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}',
+  $font-family-base: (
+    'IBM Plex Sans',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif
+  ),
+  $font-family-heading: (Newsreader, Georgia, 'Times New Roman', serif)
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* ============================================================
+   Warm Blueprint unification — matches zavalatechconsulting.com
+   espresso #241c17 · cream #f6f0e7 · terracotta #bf5e39
+   ============================================================ */
+
+@mixin warm-light {
+  /* Warm Blueprint accents */
+  --zl-accent: #bf5e39;
+  --zl-accent-soft: #e3a583;
+
+  /* Framework color */
+  --main-bg: #f6f0e7;
+  --mask-bg: #b9ac9d;
+  --main-border-color: #e3d9c9;
+
+  /* Common color */
+  --text-color: #41372c;
+  --text-muted-color: #7b7065;
+  --text-muted-highlight-color: #241c17;
+  --heading-color: #241c17;
+  --label-color: #6b6156;
+  --blockquote-border-color: #e3a583;
+  --blockquote-text-color: #7b7065;
+  --link-color: #bf5e39;
+  --link-underline-color: #e3d9c9;
+  --button-bg: #fbf7f0;
+  --btn-border-color: #e3d9c9;
+  --btn-backtotop-color: #7b7065;
+  --btn-backtotop-border-color: #e3d9c9;
+  --checkbox-color: #b9ac9d;
+  --checkbox-checked-color: #bf5e39;
+  --img-bg: radial-gradient(circle, #fbf7f0 0%, #efe8db 100%);
+  --shimmer-bg: linear-gradient(
+    90deg,
+    rgb(251 247 240 / 0%) 0%,
+    rgb(227 217 201 / 65%) 50%,
+    rgb(251 247 240 / 0%) 100%
+  );
+  --menu-bg: #fbf7f0;
+  --menu-border-color: #e3d9c9;
+  --menu-active-color: #241c17;
+  --menu-highlight-bg: rgb(227 217 201 / 50%);
+
+  /* Sidebar — espresso, like the consulting site's dark cards */
+  --site-title-color: #f6f0e7;
+  --site-subtitle-color: #b9ac9d;
+  --sidebar-bg: #241c17;
+  --sidebar-border-color: #43382f;
+  --sidebar-muted-color: #b9ac9d;
+  --sidebar-active-color: #f6f0e7;
+  --sidebar-hover-bg: rgb(191 94 57 / 18%);
+  --sidebar-btn-bg: #2e251f;
+  --sidebar-btn-color: #b9ac9d;
+  --avatar-border-color: #e3a583;
+
+  /* Topbar */
+  --topbar-bg: rgb(246 240 231 / 80%);
+  --topbar-text-color: #41372c;
+  --search-border-color: #e3d9c9;
+  --search-icon-color: #b9ac9d;
+  --input-focus-border-color: #bf5e39;
+
+  /* Home page */
+  --post-list-text-color: #6b6156;
+  --btn-patinator-text-color: #41372c;
+  --btn-paginator-hover-color: #efe8db;
+
+  /* Posts */
+  --toc-highlight: #a94e2c;
+  --toc-popup-border-color: #e3d9c9;
+  --btn-share-color: #7b7065;
+  --btn-share-hover-color: #bf5e39;
+  --card-bg: #fbf7f0;
+  --card-hover-bg: #efe8db;
+  --card-shadow:
+    rgb(36 28 23 / 6%) 0 2px 6px 0, rgb(227 217 201 / 60%) 0 0 0 1px;
+  --footnote-target-bg: #f3d8c8;
+  --tb-odd-bg: #fbf7f0;
+  --tb-border-color: #e3d9c9;
+  --dash-color: #d5c9b8;
+  --kbd-wrap-color: #b9ac9d;
+  --kbd-text-color: var(--text-color);
+  --kbd-bg-color: #fbf7f0;
+
+  /* Tags */
+  --tag-border: #e3d9c9;
+  --tag-shadow: #efe8db;
+  --tag-hover: #efe8db;
+  --search-tag-bg: #fbf7f0;
+
+  /* Categories */
+  --categories-border: rgb(36 28 23 / 12%);
+  --categories-hover-bg: #efe8db;
+  --categories-icon-hover-color: #241c17;
+
+  /* Archive */
+  --timeline-color: rgb(36 28 23 / 8%);
+  --timeline-node-bg: #b9ac9d;
+  --timeline-year-dot-color: #f6f0e7;
+
+  /* Code blocks */
+  --language-border-color: #e9dfd0;
+  --highlight-bg-color: #f2ecdf;
+  --highlighter-rouge-color: #a94e2c;
+  --highlight-lineno-color: #a3937f;
+  --inline-code-bg: rgb(191 94 57 / 8%);
+  --code-color: #41372c;
+  --code-header-text-color: #8a7d6f;
+  --code-header-muted-color: #e3d9c9;
+  --code-header-icon-color: #b9ac9d;
+}
+
+@mixin warm-dark {
+  /* Warm Blueprint accents */
+  --zl-accent: #e3a583;
+  --zl-accent-soft: #e3a583;
+
+  /* Framework color */
+  --main-bg: #241c17;
+  --mask-bg: #43382f;
+  --main-border-color: #382e26;
+
+  /* Common color */
+  --text-color: #cfc4b5;
+  --text-muted-color: #8a7d6f;
+  --text-muted-highlight-color: #b9ac9d;
+  --heading-color: #f6f0e7;
+  --label-color: #b9ac9d;
+  --blockquote-border-color: #43382f;
+  --blockquote-text-color: #8a7d6f;
+  --link-color: #e3a583;
+  --link-underline-color: #6f503c;
+  --button-bg: #2e251f;
+  --btn-border-color: #43382f;
+  --btn-backtotop-color: #cfc4b5;
+  --btn-backtotop-border-color: #382e26;
+  --checkbox-color: #8a7d6f;
+  --checkbox-checked-color: #e3a583;
+  --img-bg: radial-gradient(circle, #1c1512 0%, #2e251f 100%);
+  --shimmer-bg: linear-gradient(
+    90deg,
+    rgb(255 255 255 / 0%) 0%,
+    rgb(67 56 47 / 40%) 50%,
+    rgb(255 255 255 / 0%) 100%
+  );
+  --menu-bg: #2e251f;
+  --menu-border-color: rgb(138 125 111 / 40%);
+  --menu-active-color: #f6f0e7;
+  --menu-highlight-bg: rgb(191 94 57 / 12%);
+
+  /* Sidebar */
+  --site-title-color: #e3d9c9;
+  --site-subtitle-color: #8a7d6f;
+  --sidebar-bg: #1c1512;
+  --sidebar-border-color: #2e251f;
+  --sidebar-muted-color: #b9ac9d;
+  --sidebar-active-color: #f6f0e7;
+  --sidebar-hover-bg: #2a211c;
+  --sidebar-btn-bg: #2e251f;
+  --sidebar-btn-color: #b9ac9d;
+  --avatar-border-color: #e3a583;
+
+  /* Topbar */
+  --topbar-bg: rgb(36 28 23 / 70%);
+  --topbar-text-color: var(--text-color);
+  --search-border-color: #43382f;
+  --search-icon-color: #8a7d6f;
+  --input-focus-border-color: #a3937f;
+
+  /* Home page */
+  --post-list-text-color: #b9ac9d;
+  --btn-patinator-text-color: var(--text-color);
+  --btn-paginator-hover-color: #2e251f;
+
+  /* Posts */
+  --toc-highlight: #e3a583;
+  --toc-popup-border-color: #43382f;
+  --btn-share-color: #8a7d6f;
+  --btn-share-hover-color: #e3a583;
+  --card-bg: #2a211c;
+  --card-hover-bg: #43382f;
+  --card-header-bg: #2e251f;
+  --card-shadow:
+    rgb(15 11 8 / 72%) 0 6px 18px 0, rgb(138 125 111 / 24%) 0 0 0 1px;
+  --footnote-target-bg: #6f503c;
+  --tb-odd-bg: #2a211c;
+  --tb-even-bg: #271f1a;
+  --tb-border-color: var(--tb-odd-bg);
+  --dash-color: #43382f;
+  --kbd-wrap-color: #6b5d4e;
+  --kbd-text-color: #e3d9c9;
+  --kbd-bg-color: #2e251f;
+
+  /* Tags */
+  --tag-border: #55463a;
+  --tag-shadow: #1c1512;
+  --tag-hover: #43382f;
+  --search-tag-bg: #2a211c;
+
+  /* Categories */
+  --categories-border: rgb(67 56 47 / 50%);
+  --categories-hover-bg: #43382f;
+  --categories-icon-hover-color: #f6f0e7;
+
+  /* Archive */
+  --timeline-color: #43382f;
+  --timeline-node-bg: #8a7d6f;
+  --timeline-year-dot-color: var(--timeline-color);
+
+  /* Code blocks */
+  --language-border-color: #382e26;
+  --highlight-bg-color: #1c1512;
+  --highlighter-rouge-color: #e8c1a8;
+  --highlight-lineno-color: #8a7d6f;
+  --inline-code-bg: rgb(227 165 131 / 10%);
+  --code-color: #cfc4b5;
+  --code-header-text-color: #8a7d6f;
+  --code-header-muted-color: #382e26;
+  --code-header-icon-color: #6b5d4e;
+  --filepath-text-color: #e3d9c9;
+}
+
+:root[data-bs-theme='light'],
+:root:not([data-bs-theme]) {
+  @include warm-light;
+}
+
+:root[data-bs-theme='dark'] {
+  @include warm-dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-bs-theme]) {
+    @include warm-dark;
+  }
+}
+
+/* Typography — serif display headings, mono accents */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+pre,
+code,
+kbd {
+  font-family: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo,
+    Consolas, monospace;
+}
+
+#sidebar .site-title {
+  font-family: Newsreader, Georgia, 'Times New Roman', serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* ============================================================
+   Warm Blueprint motifs
+   ============================================================ */
+
+$zl-mono: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas,
+  monospace;
+
+/* Blueprint grid texture on the sidebar, fading out like the
+   consulting site's hero card */
+#sidebar {
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.5;
+    background-image: linear-gradient(
+        rgb(191 94 57 / 14%) 1px,
+        transparent 1px
+      ),
+      linear-gradient(90deg, rgb(191 94 57 / 14%) 1px, transparent 1px);
+    background-size: 44px 44px;
+    -webkit-mask-image: radial-gradient(
+      ellipse 100% 55% at 50% 0%,
+      #000,
+      transparent 85%
+    );
+    mask-image: radial-gradient(
+      ellipse 100% 55% at 50% 0%,
+      #000,
+      transparent 85%
+    );
+  }
+}
+
+/* cz. brand mark next to the site title */
+.zl-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.zl-brand-mark {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  border: 1.5px solid var(--site-title-color);
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $zl-mono;
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--site-title-color);
+
+  i {
+    color: var(--zl-accent-soft);
+    font-style: normal;
+  }
+}
+
+/* Mono "terminal" voice: nav, metadata, chips, footer */
+#sidebar .nav-link span {
+  font-family: $zl-mono;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+}
+
+#sidebar .site-subtitle {
+  font-family: $zl-mono;
+  font-size: 0.72rem;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+.post-meta {
+  font-family: $zl-mono;
+  font-size: 0.78rem;
+}
+
+#breadcrumb {
+  font-family: $zl-mono;
+  font-size: 0.78rem;
+}
+
+footer {
+  font-family: $zl-mono;
+  font-size: 0.72rem;
+}
+
+/* Tag chips — bordered mono chips like the consulting skill chips */
+a.post-tag,
+.post-tags .post-tag {
+  font-family: $zl-mono;
+  font-size: 0.72rem;
+  border: 1px solid var(--tag-border);
+  border-radius: 6px;
+  background: var(--search-tag-bg);
+}
+
+/* Panel headings as mono kickers ("RECENTLY UPDATED", "TRENDING TAGS") */
+#panel-wrapper .panel-heading {
+  font-family: $zl-mono;
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--zl-accent);
+}
+
+/* Square blueprint node before section headings in posts,
+   like the consulting case-study pages */
+.post-content h2::before {
+  content: '';
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--zl-accent);
+  margin-right: 0.6rem;
+  vertical-align: 0.05em;
+}
+
+/* Card geometry from the consulting site */
+.card {
+  border-radius: 14px;
+}
+
